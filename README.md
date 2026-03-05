@@ -1,4 +1,4 @@
-# Trump 2.0 Tariff Tracker
+# Trump 2.0 Tariff Tracker focused on Argentina
 
 Interactive dashboard tracking U.S. tariff policy under the Trump administration — country-specific and product-specific measures, with real-time status (implemented, threatened, or delayed).
 
@@ -9,7 +9,7 @@ Interactive dashboard tracking U.S. tariff policy under the Trump administration
 ## What's tracked
 
 - **Country-specific tariffs** — measures targeting Canada, China, the EU, Russia, and others
-- **Product-specific tariffs** — steel, aluminum, autos, semiconductors, pharmaceuticals, and more
+- **Product-specific tariffs** — steel, aluminum, cars, semiconductors, pharmaceuticals, and more
 - Current status of each measure (implemented / threatened / delayed)
 - Argentina-specific impact analysis
 
