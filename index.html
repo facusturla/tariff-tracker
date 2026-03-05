@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trump 2.0 Tariff Tracker | PromArgentina</title>
+    <meta name="description"
+        content="Rastreador interactivo de aranceles Trump 2.0 — actualizado diariamente por PromArgentina" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box
+        }
+
+        :root {
+            --navy: #0A1628;
+            --navy2: #1B3A5C;
+            --blue: #4A90D9;
+            --lightblue: #EBF4FF;
+            --red: #E74C3C;
+            --amber: #F39C12;
+            --green: #27AE60;
+            --gray: #F5F7FA;
+            --border: #E2E8F0;
+            --text: #1B2A4A;
+            --muted: #64748B;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--gray);
+            color: var(--text);
+            min-height: 100vh
+        }
+
+        /* HEADER */
+        header {
+            background: linear-gradient(135deg, var(--navy) 0%, var(--navy2) 100%);
+            color: #fff;
+            padding: 0 2rem
+        }
+
+        .header-inner {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 68px
+        }
+
+        .logo-badge {
+            background: var(--blue);
+            color: #fff;
+            font-weight: 700;
+            font-size: 13px;
+            padding: 5px 10px;
+            border-radius: 6px;
+            letter-spacing: .5px
+        }
+
+        .logo-text {
+            font-size: 14px;
+            font-weight: 500;
+            opacity: .8;
+            border-left: 1px solid rgba(255, 255, 255, .25);
+            padding-left: 12px;
+            margin-left: 10px
+        }
+
+        .header-right {
+            font-size: 13px;
+            opacity: .7;
+            text-align: right;
+            line-height: 1.6
+        }
+
+        .header-right strong {
+            display: block;
+            font-size: 15px;
+            opacity: 1;
+            color: #fff
+        }
+
+        .accent-bar {
+            height: 3px;
+            background: linear-gradient(90deg, var(--blue), #74B9FF, var(--blue))
+        }
+
+        /* MAIN */
+        main {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1.5rem
+        }
+
+        /* SOURCE BAR */
+        .source-bar {
+            background: #fff;
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: .75rem 1.25rem;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+            flex-wrap: wrap
+        }
+
+        .source-bar span,
+        .source-bar a {
+            font-size: 12px;
+            color: var(--muted)
+        }
+
+        .source-bar a {
+            color: var(--blue);
+            text-decoration: none;
+            font-weight: 500
+        }
+
+        .source-bar a:hover {
+            text-decoration: underline
+        }
+
+        .update-badge {
+            background: var(--lightblue);
+            color: var(--navy2);
+            font-size: 11px;
+            font-weight: 600;
+            padding: 3px 10px;
+            border-radius: 20px;
+            border: 1px solid #BAD8F7;
+            white-space: nowrap
+        }
+
+        .loading-bar {
+            background: #FEF3C7;
+            border: 1px solid #FDE68A;
+            border-radius: 10px;
+            padding: .75rem 1.25rem;
+            margin-bottom: 1.5rem;
+            font-size: 13px;
+            color: #92400E;
+            display: none
+        }
+
+        /* KPI CARDS */
+        .kpi-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 1rem;
+            margin-bottom: 1.5rem
+        }
+
+        .kpi-card {
+            background: #fff;
+            border-radius: 12px;
+            padding: 1.25rem;
+            border: 1px solid var(--border);
+            box-shadow: 0 1px 4px rgba(0, 0, 0, .06);
+            transition: transform .15s, box-shadow .15s
+        }
+
+        .kpi-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, .1)
+        }
+
+        .kpi-value {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--navy2);
+            line-height: 1
+        }
+
+        .kpi-label {
+            font-size: 11px;
+            color: var(--muted);
+            margin-top: .4rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: .5px
+        }
+
+        .kpi-sub {
+            font-size: 12px;
+            font-weight: 600;
+            margin-top: .3rem
+        }
+
+        .kpi-sub.red {
+            color: var(--red)
+        }
+
+        .kpi-sub.green {
+            color: var(--green)
+        }
+
+        .kpi-sub.amber {
+            color: var(--amber)
+        }
+
+        /* GRID */
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.25rem;
+            margin-bottom: 1.25rem
+        }
+
+        @media(max-width:900px) {
+            .grid-2 {
+                grid-template-columns: 1fr
+            }
+        }
+
+        /* CARDS */
+        .card {
+            background: #fff;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            box-shadow: 0 1px 4px rgba(0, 0, 0, .06);
+            overflow: hidden
+        }
+
+        .card-header {
+            padding: .9rem 1.25rem;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: .5rem
+        }
+
+        .card-header h2 {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text);
+            text-transform: uppercase;
+            letter-spacing: .5px
+        }
+
+        #map {
+            height: 340px;
+            width: 100%
+        }
+
+        .legend {
+            display: flex;
+            gap: .75rem;
+            flex-wrap: wrap;
+            align-items: center
+        }
+
+        .leg {
+            display: flex;
+            align-items: center;
+            gap: .35rem;
+            font-size: 11px;
+            color: var(--muted)
+        }
+
+        .leg-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            flex-shrink: 0
+        }
+
+        /* TABLES */
+        .table-card {
+            background: #fff;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            box-shadow: 0 1px 4px rgba(0, 0, 0, .06);
+            margin-bottom: 1.25rem;
+            overflow: hidden
+        }
+
+        .table-controls {
+            padding: .75rem 1.25rem;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            gap: .75rem;
+            flex-wrap: wrap;
+            align-items: center
+        }
+
+        .search-box {
+            flex: 1;
+            min-width: 180px;
+            padding: .45rem .8rem;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            font-size: 13px;
+            font-family: inherit;
+            color: var(--text);
+            outline: none;
+            transition: border .15s
+        }
+
+        .search-box:focus {
+            border-color: var(--blue)
+        }
+
+        .filter-pill {
+            padding: .35rem .8rem;
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            font-size: 11px;
+            font-weight: 500;
+            cursor: pointer;
+            background: #fff;
+            color: var(--muted);
+            transition: all .15s;
+            white-space: nowrap
+        }
+
+        .filter-pill:hover {
+            border-color: var(--blue);
+            color: var(--blue)
+        }
+
+        .filter-pill.active {
+            background: var(--blue);
+            color: #fff;
+            border-color: var(--blue)
+        }
+
+        .table-wrap {
+            overflow-x: auto
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 13px
+        }
+
+        thead th {
+            background: var(--navy2);
+            color: #fff;
+            padding: .7rem 1rem;
+            text-align: left;
+            font-weight: 600;
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: .5px;
+            white-space: nowrap
+        }
+
+        tbody tr {
+            border-bottom: 1px solid var(--border);
+            transition: background .1s
+        }
+
+        tbody tr:hover {
+            background: #F8FAFF
+        }
+
+        tbody tr:last-child {
+            border-bottom: none
+        }
+
+        tbody td {
+            padding: .65rem 1rem;
+            vertical-align: top;
+            line-height: 1.5
+        }
+
+        .td-name {
+            font-weight: 600;
+            color: var(--navy2)
+        }
+
+        .rate-badge {
+            display: inline-block;
+            padding: .2rem .6rem;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: 700;
+            background: var(--lightblue);
+            color: var(--navy2)
+        }
+
+        .rate-badge.high {
+            background: #FEE2E2;
+            color: #BE123C
+        }
+
+        .rate-badge.med {
+            background: #FEF3C7;
+            color: #92400E
+        }
+
+        .rate-badge.tbd {
+            background: #F1F5F9;
+            color: var(--muted)
+        }
+
+        .status-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: .3rem;
+            padding: .2rem .6rem;
+            border-radius: 12px;
+            font-size: 10px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: .3px
+        }
+
+        .status-badge.implemented {
+            background: #DCFCE7;
+            color: #15803D
+        }
+
+        .status-badge.threatened {
+            background: #FEE2E2;
+            color: #BE123C
+        }
+
+        .status-badge.delayed {
+            background: #FEF3C7;
+            color: #92400E
+        }
+
+        .status-badge.tbd {
+            background: #F1F5F9;
+            color: var(--muted)
+        }
+
+        .dot {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: currentColor;
+            flex-shrink: 0
+        }
+
+        .notes-cell {
+            max-width: 320px;
+            font-size: 12px;
+            color: var(--muted);
+            line-height: 1.5
+        }
+
+        .tabs {
+            display: flex;
+            gap: .5rem;
+            padding: .75rem 1.25rem 0
+        }
+
+        .tab {
+            padding: .5rem 1.25rem;
+            font-size: 12px;
+            font-weight: 600;
+            cursor: pointer;
+            border-radius: 8px 8px 0 0;
+            border: 1px solid var(--border);
+            border-bottom: none;
+            background: #F8FAFF;
+            color: var(--muted);
+            transition: all .15s
+        }
+
+        .tab.active {
+            background: #fff;
+            color: var(--navy2)
+        }
+
+        .tab-panel {
+            display: none
+        }
+
+        .tab-panel.active {
+            display: block
+        }
+
+        /* FOOTER */
+        footer {
+            text-align: center;
+            padding: 2rem;
+            font-size: 11px;
+            color: var(--muted)
+        }
+
+        footer a {
+            color: var(--blue);
+            text-decoration: none
+        }
+
+        footer strong {
+            color: var(--navy2)
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="header-inner">
+            <div style="display:flex;align-items:center">
+                <div class="logo-badge">PromArgentina</div>
+                <div class="logo-text">Agencia Argentina de Promoción de Inversiones y Comercio Internacional</div>
+            </div>
+            <div class="header-right">
+                <strong>Trump 2.0 Tariff Tracker</strong>
+                <span id="header-date">Cargando datos...</span>
+            </div>
+        </div>
+        <div class="accent-bar"></div>
+    </header>
+
+    <main>
+        <div class="loading-bar" id="loading-bar">⏳ Cargando datos actualizados...</div>
+
+        <div class="source-bar">
+            <span>📡 Fuente: <a id="source-link" href="https://www.tradecomplianceresourcehub.com" target="_blank">Trade
+                    Compliance Resource Hub — Reed Smith</a></span>
+            <div style="display:flex;gap:.75rem;align-items:center;flex-wrap:wrap">
+                <span id="scraped-at" class="update-badge">🔄 Actualizado: —</span>
+                <span class="update-badge" style="background:#FEE2E2;border-color:#FECACA;color:#BE123C">⚖️ Corte
+                    Suprema: IEEPA no autoriza aranceles — medidas en litigio</span>
+            </div>
+        </div>
+
+        <!-- KPI CARDS -->
+        <div class="kpi-row">
+            <div class="kpi-card">
+                <div class="kpi-value" id="kpi-countries">—</div>
+                <div class="kpi-label">Países con Aranceles</div>
+                <div class="kpi-sub red" id="kpi-countries-sub"></div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-value" id="kpi-products">—</div>
+                <div class="kpi-label">Productos Afectados</div>
+                <div class="kpi-sub amber">por sector/categoría</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-value" id="kpi-max-country">—</div>
+                <div class="kpi-label">Arancel Máx. País</div>
+                <div class="kpi-sub red" id="kpi-max-country-sub"></div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-value" id="kpi-max-product">—</div>
+                <div class="kpi-label">Arancel Máx. Producto</div>
+                <div class="kpi-sub red" id="kpi-max-product-sub"></div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-value" id="kpi-impl">—</div>
+                <div class="kpi-label">Implementadas</div>
+                <div class="kpi-sub green">en vigor</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-value" id="kpi-threat">—</div>
+                <div class="kpi-label">Amenazadas</div>
+                <div class="kpi-sub red">pendientes</div>
+            </div>
+        </div>
+
+        <div class="grid-2">
+            <div class="card">
+                <div class="card-header">
+                    <h2>🗺️ Mapa de Aranceles por País</h2>
+                    <div class="legend">
+                        <div class="leg">
+                            <div class="leg-dot" style="background:#BE123C"></div>≥500%
+                        </div>
+                        <div class="leg">
+                            <div class="leg-dot" style="background:#E74C3C"></div>≥100%
+                        </div>
+                        <div class="leg">
+                            <div class="leg-dot" style="background:#F39C12"></div>10-99%
+                        </div>
+                        <div class="leg">
+                            <div class="leg-dot" style="background:#4A90D9"></div>10% global
+                        </div>
+                    </div>
+                </div>
+                <div id="map"></div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h2>🇦🇷 Impacto en Argentina</h2>
+                </div>
+                <div style="padding:1.25rem">
+                    <div
+                        style="background:#FEF3C7;border:1px solid #FDE68A;border-radius:8px;padding:1rem;margin-bottom:1rem">
+                        <div style="font-weight:600;font-size:13px;color:#92400E;margin-bottom:.4rem">⚠️ Argentina
+                            incluida en «All Countries» (Sec. 122)</div>
+                        <div style="font-size:12px;color:#78350F;line-height:1.6">Sujeta al <strong>10% de arancel
+                                base</strong> sobre acero/aluminio (efectivo 24 Feb 2026). Se amenaza un aumento al 15%.
+                        </div>
+                    </div>
+                    <div
+                        style="background:#DCFCE7;border:1px solid #BBF7D0;border-radius:8px;padding:1rem;margin-bottom:1rem">
+                        <div style="font-weight:600;font-size:13px;color:#15803D;margin-bottom:.4rem">✅ Sin arancel
+                            recíproco específico confirmado</div>
+                        <div style="font-size:12px;color:#166534;line-height:1.6">Argentina no figura en la lista de
+                            países con aranceles bilaterales específicos. Los marcos recíprocos están en proceso.</div>
+                    </div>
+                    <div style="background:#EBF4FF;border:1px solid #BAD8F7;border-radius:8px;padding:1rem">
+                        <div style="font-weight:600;font-size:13px;color:#1B3A5C;margin-bottom:.6rem">📦 Sectores
+                            argentinos más expuestos</div>
+                        <div style="display:grid;gap:.4rem">
+                            <div
+                                style="display:flex;justify-content:space-between;font-size:12px;padding:.3rem .5rem;background:#fff;border-radius:6px;border:1px solid #E2E8F0">
+                                <span>🥩 Agropecuario</span><span style="color:#E74C3C;font-weight:600">TBD</span></div>
+                            <div
+                                style="display:flex;justify-content:space-between;font-size:12px;padding:.3rem .5rem;background:#fff;border-radius:6px;border:1px solid #E2E8F0">
+                                <span>🏗️ Acero y Aluminio</span><span style="color:#F39C12;font-weight:600">50%</span>
+                            </div>
+                            <div
+                                style="display:flex;justify-content:space-between;font-size:12px;padding:.3rem .5rem;background:#fff;border-radius:6px;border:1px solid #E2E8F0">
+                                <span>⚗️ Farmacéuticos</span><span style="color:#E74C3C;font-weight:600">100%
+                                    (amenazado)</span></div>
+                            <div
+                                style="display:flex;justify-content:space-between;font-size:12px;padding:.3rem .5rem;background:#fff;border-radius:6px;border:1px solid #E2E8F0">
+                                <span>⛏️ Minerales Críticos</span><span style="color:#E74C3C;font-weight:600">TBD</span>
+                            </div>
+                            <div
+                                style="display:flex;justify-content:space-between;font-size:12px;padding:.3rem .5rem;background:#fff;border-radius:6px;border:1px solid #E2E8F0">
+                                <span>🛢️ Oil &amp; Gas</span><span style="color:#94A3B8;font-weight:600">TBD</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- TABLES -->
+        <div class="table-card">
+            <div class="card-header" style="border-bottom:none">
+                <h2>📋 Datos de Aranceles</h2>
+            </div>
+            <div class="tabs">
+                <div class="tab active" id="tab-btn-countries" onclick="switchTab('countries')">🌎 Por País (<span
+                        id="count-countries">—</span>)</div>
+                <div class="tab" id="tab-btn-products" onclick="switchTab('products')">📦 Por Producto (<span
+                        id="count-products">—</span>)</div>
+            </div>
+            <div id="tab-countries" class="tab-panel active">
+                <div class="table-controls">
+                    <input class="search-box" id="search-countries" placeholder="Buscar país..."
+                        oninput="filterTable('countries')" />
+                    <div class="filter-pill active" onclick="setPillFilter('countries','all',this)">Todos</div>
+                    <div class="filter-pill" onclick="setPillFilter('countries','implemented',this)">Implementado</div>
+                    <div class="filter-pill" onclick="setPillFilter('countries','threatened',this)">Amenazado</div>
+                    <div class="filter-pill" onclick="setPillFilter('countries','tbd',this)">TBD</div>
+                </div>
+                <div class="table-wrap">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>País</th>
+                                <th>Estado</th>
+                                <th>Arancel</th>
+                                <th>Alcance / Notas</th>
+                                <th>Contramedidas</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tbody-countries"></tbody>
+                    </table>
+                </div>
+            </div>
+            <div id="tab-products" class="tab-panel">
+                <div class="table-controls">
+                    <input class="search-box" id="search-products" placeholder="Buscar producto..."
+                        oninput="filterTable('products')" />
+                    <div class="filter-pill active" onclick="setPillFilter('products','all',this)">Todos</div>
+                    <div class="filter-pill" onclick="setPillFilter('products','implemented',this)">Implementado</div>
+                    <div class="filter-pill" onclick="setPillFilter('products','threatened',this)">Amenazado</div>
+                    <div class="filter-pill" onclick="setPillFilter('products','tbd',this)">TBD</div>
+                </div>
+                <div class="table-wrap">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Producto</th>
+                                <th>Estado</th>
+                                <th>Arancel</th>
+                                <th>Alcance</th>
+                                <th>Notas</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tbody-products"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        Elaborado por <strong>PromArgentina</strong> — Agencia Argentina de Promoción de Inversiones y Comercio
+        Internacional |
+        Datos: <a id="footer-link" href="https://www.tradecomplianceresourcehub.com" target="_blank">Trade Compliance
+            Resource Hub — Reed Smith</a> |
+        <a href="https://github.com/facusturla/tariff-tracker" target="_blank">Ver en GitHub</a>
+    </footer>
+
+    <script>
+        // ── State ────────────────────────────────────────────────────────────────────
+        let countryData = [], productData = [];
+        const state = { countries: { filter: 'all', search: '' }, products: { filter: 'all', search: '' } };
+
+        // ── Load data from tariffs.json (GitHub Pages serves it as static file) ──────
+        async function loadData() {
+            document.getElementById('loading-bar').style.display = 'block';
+            try {
+                const r = await fetch('data/tariffs.json?t=' + Date.now());
+                if (!r.ok) throw new Error('HTTP ' + r.status);
+                const data = await r.json();
+                countryData = data.countries || [];
+                productData = data.products || [];
+                // Update meta
+                if (data.article_date) {
+                    const d = new Date(data.article_date);
+                    document.getElementById('header-date').textContent = 'Fuente: ' + d.toLocaleDateString('es-AR', { day: 'numeric', month: 'long', year: 'numeric' });
+                }
+                if (data.scraped_at) {
+                    const d = new Date(data.scraped_at);
+                    document.getElementById('scraped-at').textContent = '🔄 Actualizado: ' + d.toLocaleDateString('es-AR', { day: 'numeric', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' });
+                }
+                if (data.source_url) {
+                    document.getElementById('source-link').href = data.source_url;
+                    document.getElementById('footer-link').href = data.source_url;
+                }
+            } catch (e) {
+                console.warn('Could not load data/tariffs.json, using fallback data.', e);
+                loadFallback();
+            }
+            document.getElementById('loading-bar').style.display = 'none';
+            render();
+        }
+
+        function loadFallback() {
+            document.getElementById('header-date').textContent = '5 de marzo de 2026 (datos embebidos)';
+            document.getElementById('scraped-at').textContent = '⚠️ Datos locales — conexión no disponible';
+            // Minimal fallback
+            countryData = [
+                { country: 'All Countries', status: 'implemented', rate: '10%', rateNum: 10, scope: 'Sec. 122 — Acero/Aluminio (24 Feb 2026). Posible aumento a 15%.', countermeasures: '—' },
+                { country: 'Russia', status: 'threatened', rate: '500%', rateNum: 500, scope: 'Sanctioning Russia Act of 2025.', countermeasures: '—' },
+                { country: 'Canada', status: 'threatened', rate: '250%', rateNum: 250, scope: 'Dairy y Lumber.', countermeasures: 'Sí' },
+                { country: 'European Union', status: 'threatened', rate: '200%', rateNum: 200, scope: 'Alcohol products.', countermeasures: 'Sí' },
+                { country: 'China', status: 'delayed', rate: '25%', rateNum: 25, scope: 'Maritime/cargo equipment. Delayed until Nov 2026.', countermeasures: 'Sí' },
+                { country: 'France', status: 'threatened', rate: '200%', rateNum: 200, scope: 'Alcohol products.', countermeasures: '—' },
+            ];
+            productData = [
+                { product: 'Steel articles & derivatives', status: 'implemented', rate: '50%', rateNum: 50, scope: 'Todos los países except UK (25%). Efectivo 12 Mar 2025.', notes: '' },
+                { product: 'Aluminum articles & derivatives', status: 'implemented', rate: '200% (RUS) / 50%', rateNum: 200, scope: 'Efectivo 12 Mar 2025.', notes: '' },
+                { product: 'Automobiles', status: 'implemented', rate: '25%', rateNum: 25, scope: 'Efectivo 3 Abr 2025.', notes: '' },
+                { product: 'Pharmaceuticals', status: 'threatened', rate: '100%', rateNum: 100, scope: 'Branded/patented products.', notes: '' },
+            ];
+        }
+
+        // ── UI Helpers ────────────────────────────────────────────────────────────────
+        const statusLabels = { implemented: 'Implementado', threatened: 'Amenazado', delayed: 'Demorado', tbd: 'TBD' };
+
+        function getRateCls(rate) {
+            if (!rate || rate === 'TBD') return 'tbd';
+            const n = parseInt(rate);
+            return n >= 100 ? 'high' : n >= 10 ? 'med' : '';
+        }
+
+        function renderRow(fields) {
+            return '<tr>' + fields.map((f, i) => `<td${i === 0 ? ' class="td-name"' : i === 4 || i === 3 ? ' class="notes-cell"' : ''}>${f}</td>`).join('') + '</tr>';
+        }
+
+        function statusBadge(s) {
+            return `<span class="status-badge ${s}"><span class="dot"></span>${statusLabels[s] || s}</span>`;
+        }
+        function rateBadge(r) {
+            return `<span class="rate-badge ${getRateCls(r)}">${r || 'TBD'}</span>`;
+        }
+
+        // ── KPIs ──────────────────────────────────────────────────────────────────────
+        function computeKPIs() {
+            const uniqueC = new Set(countryData.map(d => d.country).filter(c => c !== 'All Countries'));
+            document.getElementById('kpi-countries').textContent = uniqueC.size;
+            document.getElementById('kpi-countries-sub').textContent = countryData.length + ' medidas totales';
+            document.getElementById('kpi-products').textContent = productData.length;
+            document.getElementById('count-countries').textContent = countryData.length;
+            document.getElementById('count-products').textContent = productData.length;
+
+            const allData = [...countryData, ...productData];
+            const maxC = allData.filter(d => d.country).reduce((a, b) => (b.rateNum || 0) > (a.rateNum || 0) ? b : a, { rateNum: 0 });
+            document.getElementById('kpi-max-country').textContent = maxC.rate || '—';
+            document.getElementById('kpi-max-country-sub').textContent = maxC.country || '';
+
+            const maxP = productData.reduce((a, b) => (b.rateNum || 0) > (a.rateNum || 0) ? b : a, { rateNum: 0 });
+            document.getElementById('kpi-max-product').textContent = maxP.rate || '—';
+            document.getElementById('kpi-max-product-sub').textContent = (maxP.product || '').substring(0, 30);
+
+            document.getElementById('kpi-impl').textContent = allData.filter(d => d.status === 'implemented').length;
+            document.getElementById('kpi-threat').textContent = allData.filter(d => d.status === 'threatened').length;
+        }
+
+        // ── Table rendering ───────────────────────────────────────────────────────────
+        function renderCountries() {
+            const { filter, search } = state.countries;
+            const rows = countryData.filter(d => {
+                const m = filter === 'all' || (filter === 'tbd' ? d.rate === 'TBD' : d.status === filter);
+                const s = !search || d.country.toLowerCase().includes(search) || (d.scope || '').toLowerCase().includes(search);
+                return m && s;
+            });
+            const tbody = document.getElementById('tbody-countries');
+            tbody.innerHTML = rows.length
+                ? rows.map(d => renderRow([d.country, statusBadge(d.status), rateBadge(d.rate), d.scope || '—', d.countermeasures || '—'])).join('')
+                : '<tr><td colspan="5" style="text-align:center;padding:2rem;color:var(--muted)">Sin resultados</td></tr>';
+        }
+
+        function renderProducts() {
+            const { filter, search } = state.products;
+            const rows = productData.filter(d => {
+                const m = filter === 'all' || (filter === 'tbd' ? d.rate === 'TBD' : d.status === filter);
+                const s = !search || d.product.toLowerCase().includes(search) || (d.scope || '').toLowerCase().includes(search);
+                return m && s;
+            });
+            const tbody = document.getElementById('tbody-products');
+            tbody.innerHTML = rows.length
+                ? rows.map(d => renderRow([d.product, statusBadge(d.status), rateBadge(d.rate), d.scope || '—', d.notes || '—'])).join('')
+                : '<tr><td colspan="5" style="text-align:center;padding:2rem;color:var(--muted)">Sin resultados</td></tr>';
+        }
+
+        function filterTable(type) {
+            state[type].search = document.getElementById('search-' + type).value.toLowerCase();
+            type === 'countries' ? renderCountries() : renderProducts();
+        }
+        function setPillFilter(type, filter, el) {
+            state[type].filter = filter;
+            el.closest('.table-controls').querySelectorAll('.filter-pill').forEach(p => p.classList.remove('active'));
+            el.classList.add('active');
+            type === 'countries' ? renderCountries() : renderProducts();
+        }
+
+        // ── Tabs ──────────────────────────────────────────────────────────────────────
+        function switchTab(tab) {
+            ['countries', 'products'].forEach(t => {
+                document.getElementById('tab-btn-' + t).classList.toggle('active', t === tab);
+                document.getElementById('tab-' + t).classList.toggle('active', t === tab);
+            });
+        }
+
+        // ── Map ───────────────────────────────────────────────────────────────────────
+        function initMap() {
+            const map = L.map('map', { scrollWheelZoom: false, zoomControl: true }).setView([20, 5], 2);
+            L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+                attribution: '&copy; <a href="https://carto.com/">CartoDB</a>', maxZoom: 19
+            }).addTo(map);
+
+            const markerDefs = [
+                { name: 'Russia', lat: 61, lng: 99, rate: '500%', status: 'threatened', color: '#BE123C', r: 22 },
+                { name: 'Canada', lat: 56, lng: -106, rate: '250%', status: 'threatened', color: '#E74C3C', r: 16 },
+                { name: 'Francia', lat: 46, lng: 2, rate: '200%', status: 'threatened', color: '#E74C3C', r: 14 },
+                { name: 'China', lat: 35, lng: 105, rate: '25%', status: 'delayed', color: '#F39C12', r: 14 },
+                { name: 'Unión Europea', lat: 51, lng: 10, rate: '200% / TBD', status: 'threatened', color: '#F39C12', r: 14 },
+                { name: 'Reino Unido', lat: 54, lng: -2, rate: 'TBD (DST)', status: 'threatened', color: '#F39C12', r: 10 },
+                { name: 'Turquía', lat: 39, lng: 35, rate: 'TBD', status: 'threatened', color: '#F39C12', r: 10 },
+                { name: 'Austria', lat: 47.5, lng: 14, rate: 'TBD', status: 'threatened', color: '#F39C12', r: 9 },
+                { name: 'España', lat: 40, lng: -4, rate: 'TBD', status: 'threatened', color: '#F39C12', r: 9 },
+                { name: 'Nicaragua', lat: 13, lng: -85, rate: '0-15%', status: 'implemented', color: '#27AE60', r: 8 },
+                { name: 'Resto del Mundo (Sec. 122)', lat: 20, lng: 30, rate: '10%', status: 'implemented', color: '#4A90D9', r: 12 },
+            ];
+
+            markerDefs.forEach(m => {
+                L.circleMarker([m.lat, m.lng], { radius: m.r, fillColor: m.color, color: '#fff', weight: 1.5, opacity: 1, fillOpacity: .85 })
+                    .bindTooltip(`<strong>${m.name}</strong><br/>Arancel: <strong>${m.rate}</strong><br/>Estado: ${statusLabels[m.status] || m.status}`, { sticky: true })
+                    .addTo(map);
+            });
+
+            const argIcon = L.divIcon({ html: `<div style="width:14px;height:14px;background:#4A90D9;border:2px solid #fff;border-radius:50%;box-shadow:0 0 0 4px rgba(74,144,217,.35)"></div>`, className: '', iconSize: [14, 14], iconAnchor: [7, 7] });
+            L.marker([-34, -64], { icon: argIcon })
+                .bindTooltip('<strong>🇦🇷 Argentina</strong><br/>10% base (Sec. 122)<br/>Sin arancel recíproco confirmado', { sticky: true })
+                .addTo(map);
+        }
+
+        // ── Boot ──────────────────────────────────────────────────────────────────────
+        function render() { computeKPIs(); renderCountries(); renderProducts(); }
+        initMap();
+        loadData();
+    </script>
+</body>
+
+</html>

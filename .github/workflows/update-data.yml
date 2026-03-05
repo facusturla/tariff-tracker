@@ -1,0 +1,36 @@
+name: Update Tariff Data
+
+on:
+  schedule:
+    # Runs every day at 08:00 UTC (05:00 Buenos Aires time)
+    - cron: '0 8 * * *'
+  workflow_dispatch:  # also allows manual trigger from GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4 lxml
+
+      - name: Run scraper
+        run: python scraper/scrape.py
+
+      - name: Commit and push if data changed
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "Tariff Tracker Bot"
+          git add data/tariffs.json
+          git diff --staged --quiet || git commit -m "Auto-update tariff data $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push

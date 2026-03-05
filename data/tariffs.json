@@ -1,0 +1,353 @@
+{
+    "scraped_at": "2026-03-05T19:10:00+00:00",
+    "article_date": "2026-03-05",
+    "source_url": "https://www.tradecomplianceresourcehub.com/2026/03/05/trump-2-0-tariff-tracker/",
+    "countries": [
+        {
+            "country": "All Countries",
+            "status": "implemented",
+            "rate": "10%",
+            "rateNum": 10,
+            "scope": "Sec. 122 — Acero y Aluminio (efectivo 24 Feb 2026). Se amenaza aumento al 15%.",
+            "countermeasures": "—"
+        },
+        {
+            "country": "Russia (related)",
+            "status": "threatened",
+            "rate": "500%",
+            "rateNum": 500,
+            "scope": "Sanctioning Russia Act of 2025 — países que adquieran energía rusa.",
+            "countermeasures": "—"
+        },
+        {
+            "country": "Russia",
+            "status": "threatened",
+            "rate": "500%",
+            "rateNum": 500,
+            "scope": "Todos los productos de origen ruso (Ukraine-related sanctions, Jan 7 2026).",
+            "countermeasures": "—"
+        },
+        {
+            "country": "Canada",
+            "status": "threatened",
+            "rate": "250%",
+            "rateNum": 250,
+            "scope": "Dairy y Lumber: 250% (Mar 7 2025).",
+            "countermeasures": "Sí"
+        },
+        {
+            "country": "Canada",
+            "status": "threatened",
+            "rate": "50%",
+            "rateNum": 50,
+            "scope": "Aircraft: 50% (Jan 29 2026).",
+            "countermeasures": "Sí"
+        },
+        {
+            "country": "France",
+            "status": "threatened",
+            "rate": "200%",
+            "rateNum": 200,
+            "scope": "Alcohol products (Jan 19 2026).",
+            "countermeasures": "—"
+        },
+        {
+            "country": "European Union",
+            "status": "threatened",
+            "rate": "200%",
+            "rateNum": 200,
+            "scope": "Alcohol products (Mar 13 2025).",
+            "countermeasures": "Sí"
+        },
+        {
+            "country": "European Union",
+            "status": "threatened",
+            "rate": "TBD",
+            "rateNum": null,
+            "scope": "Digital Services Tax (Feb 21 2025).",
+            "countermeasures": "Sí"
+        },
+        {
+            "country": "China",
+            "status": "delayed",
+            "rate": "25%",
+            "rateNum": 25,
+            "scope": "Maritime and cargo handling equipment — Delayed until Nov 10, 2026.",
+            "countermeasures": "Sí"
+        },
+        {
+            "country": "Nicaragua",
+            "status": "implemented",
+            "rate": "0-15%",
+            "rateNum": 0,
+            "scope": "Sec. 301 — 0% (2026), 10% (2027), 15% (desde 2028). Solo bienes CAFTA-DR.",
+            "countermeasures": "—"
+        },
+        {
+            "country": "Austria",
+            "status": "threatened",
+            "rate": "TBD",
+            "rateNum": null,
+            "scope": "Digital Services Tax (Feb 21 2025).",
+            "countermeasures": "—"
+        },
+        {
+            "country": "Spain",
+            "status": "threatened",
+            "rate": "TBD",
+            "rateNum": null,
+            "scope": "Digital Services Tax (Feb 21 2025).",
+            "countermeasures": "—"
+        },
+        {
+            "country": "Turkey",
+            "status": "threatened",
+            "rate": "TBD",
+            "rateNum": null,
+            "scope": "Digital Services Tax (Feb 21 2025).",
+            "countermeasures": "—"
+        },
+        {
+            "country": "United Kingdom",
+            "status": "threatened",
+            "rate": "TBD",
+            "rateNum": null,
+            "scope": "Digital Services Tax. En negociación (Trade Deal).",
+            "countermeasures": "—"
+        },
+        {
+            "country": "Additional (DSTs)",
+            "status": "threatened",
+            "rate": "TBD",
+            "rateNum": null,
+            "scope": "Cualquier país con Digital Services Tax (Aug 25 2025).",
+            "countermeasures": "—"
+        }
+    ],
+    "products": [
+        {
+            "product": "Steel articles & derivative products",
+            "status": "implemented",
+            "rate": "25% (UK) / 50%",
+            "rateNum": 50,
+            "scope": "Todos los países excepto UK. Efectivo 12 Mar 2025. Incluye derivados (desde 18 Ago 2025).",
+            "notes": "Excepción aeroespacial para UK, UE y Japón."
+        },
+        {
+            "product": "Aluminum articles & derivative products",
+            "status": "implemented",
+            "rate": "25% (UK) / 200% (RUS) / 50%",
+            "rateNum": 200,
+            "scope": "Efectivo 12 Mar 2025. Incluye productos derivados adicionales (desde 18 Ago 2025).",
+            "notes": "Excepción aeroespacial para UK, UE y Japón."
+        },
+        {
+            "product": "Automobiles",
+            "status": "implemented",
+            "rate": "25%",
+            "rateNum": 25,
+            "scope": "Efectivo 3 Abr 2025. Tasa reducida para UE, Japón, Corea del Sur.",
+            "notes": "Exención USMCA para contenido no-estadounidense."
+        },
+        {
+            "product": "Automobile parts",
+            "status": "implemented",
+            "rate": "10% (UK) / 25%",
+            "rateNum": 25,
+            "scope": "Efectivo 3 May 2025. Exención USMCA.",
+            "notes": "Tasa reducida para UE, Japón, Corea del Sur."
+        },
+        {
+            "product": "Copper",
+            "status": "implemented",
+            "rate": "50%",
+            "rateNum": 50,
+            "scope": "Efectivo 1 Ago 2025. Productos de cobre semi-terminados.",
+            "notes": "Excepción aeroespacial UE y Japón."
+        },
+        {
+            "product": "Semiconductors & semiconductor manufacturing equipment",
+            "status": "implemented",
+            "rate": "25%",
+            "rateNum": 25,
+            "scope": "Efectivo 15 Ene 2026. Circuitos lógicos integrados.",
+            "notes": "Exención: centros de datos, I+D, startups, electrónica de consumo no-datacenter (hasta 2028)."
+        },
+        {
+            "product": "Lumber, timber (softwood)",
+            "status": "implemented",
+            "rate": "10%",
+            "rateNum": 10,
+            "scope": "Efectivo 14 Oct 2025.",
+            "notes": ""
+        },
+        {
+            "product": "Upholstered wooden furniture",
+            "status": "implemented",
+            "rate": "10% (UK) / var. (UE/JPN/KOR)",
+            "rateNum": 10,
+            "scope": "Efectivo 14 Oct 2025.",
+            "notes": ""
+        },
+        {
+            "product": "Kitchen cabinets & vanities",
+            "status": "implemented",
+            "rate": "10% (UK) / var. (UE/JPN/KOR)",
+            "rateNum": 10,
+            "scope": "Efectivo 14 Oct 2025.",
+            "notes": ""
+        },
+        {
+            "product": "Maritime: Intermodal chassis & parts",
+            "status": "delayed",
+            "rate": "100%",
+            "rateNum": 100,
+            "scope": "Delayed until Nov 10, 2026. Solo productos chinos.",
+            "notes": ""
+        },
+        {
+            "product": "Maritime: Ship-to-shore gantry cranes",
+            "status": "delayed",
+            "rate": "100%",
+            "rateNum": 100,
+            "scope": "Delayed until Nov 10, 2026. Origen chino o componentes chinos.",
+            "notes": "Exención: contratos previos a Apr 17 2025."
+        },
+        {
+            "product": "Maritime: Other cranes & equipment",
+            "status": "threatened",
+            "rate": "150%",
+            "rateNum": 150,
+            "scope": "Threatened Oct 15 2025. Rubber tire gantry cranes, straddle carriers, terminal tractors, etc.",
+            "notes": ""
+        },
+        {
+            "product": "Trucks & heavy vehicles (medium/heavy-duty)",
+            "status": "implemented",
+            "rate": "25%",
+            "rateNum": 25,
+            "scope": "Efectivo 1 Nov 2025.",
+            "notes": "Exención: vehículos fabricados hace 25+ años."
+        },
+        {
+            "product": "Buses",
+            "status": "implemented",
+            "rate": "10%",
+            "rateNum": 10,
+            "scope": "Efectivo 1 Nov 2025.",
+            "notes": ""
+        },
+        {
+            "product": "Truck parts (medium/heavy-duty)",
+            "status": "implemented",
+            "rate": "25%",
+            "rateNum": 25,
+            "scope": "Efectivo 1 Nov 2025. Exención USMCA.",
+            "notes": ""
+        },
+        {
+            "product": "Pharmaceuticals & pharmaceutical ingredients",
+            "status": "threatened",
+            "rate": "100%",
+            "rateNum": 100,
+            "scope": "Solo marcas patentadas. Amenazado para Oct 1.",
+            "notes": "Exención: empresas construyendo planta en EE.UU."
+        },
+        {
+            "product": "Movies (foreign-produced)",
+            "status": "threatened",
+            "rate": "100%",
+            "rateNum": 100,
+            "scope": "Todas las películas producidas en el extranjero.",
+            "notes": ""
+        },
+        {
+            "product": "Integrated circuits",
+            "status": "threatened",
+            "rate": "100%",
+            "rateNum": 100,
+            "scope": "Sec. 232 Investigation. TBD scope.",
+            "notes": "Ver también semiconductores."
+        },
+        {
+            "product": "iPhones",
+            "status": "threatened",
+            "rate": "25%",
+            "rateNum": 25,
+            "scope": "TBD.",
+            "notes": ""
+        },
+        {
+            "product": "Agricultural products",
+            "status": "threatened",
+            "rate": "TBD",
+            "rateNum": null,
+            "scope": "TBD. Amenazado Mar 3 2025.",
+            "notes": ""
+        },
+        {
+            "product": "Commercial aircraft & jet engines",
+            "status": "threatened",
+            "rate": "TBD",
+            "rateNum": null,
+            "scope": "Sec. 232 Investigation. Amenazado May 13 2025.",
+            "notes": ""
+        },
+        {
+            "product": "Oil and gas",
+            "status": "threatened",
+            "rate": "TBD",
+            "rateNum": null,
+            "scope": "TBD. Amenazado Jan 31 2025.",
+            "notes": ""
+        },
+        {
+            "product": "PPE, medical consumables & devices",
+            "status": "threatened",
+            "rate": "TBD",
+            "rateNum": null,
+            "scope": "Sec. 232 Investigation. Sep 24 2025.",
+            "notes": ""
+        },
+        {
+            "product": "Polysilicon & derivatives",
+            "status": "threatened",
+            "rate": "TBD",
+            "rateNum": null,
+            "scope": "Sec. 232 Investigation. Jul 14 2025.",
+            "notes": ""
+        },
+        {
+            "product": "Processed critical minerals & derivatives",
+            "status": "threatened",
+            "rate": "TBD",
+            "rateNum": null,
+            "scope": "Sec. 232 Investigation. Acción inicial Jan 14 2026.",
+            "notes": ""
+        },
+        {
+            "product": "Robotics & industrial machinery",
+            "status": "threatened",
+            "rate": "TBD",
+            "rateNum": null,
+            "scope": "Sec. 232 Investigation. Sep 24 2025.",
+            "notes": ""
+        },
+        {
+            "product": "Unmanned aircraft systems (UAS)",
+            "status": "threatened",
+            "rate": "TBD",
+            "rateNum": null,
+            "scope": "Sec. 232 Investigation. Jul 14 2025.",
+            "notes": ""
+        },
+        {
+            "product": "Wind turbines & components",
+            "status": "threatened",
+            "rate": "TBD",
+            "rateNum": null,
+            "scope": "Sec. 232 Investigation. Aug 21 2025.",
+            "notes": ""
+        }
+    ]
+}
