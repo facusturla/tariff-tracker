@@ -563,7 +563,7 @@
             </div>
             <div class="kpi-card">
                 <div class="kpi-value" id="kpi-threat">—</div>
-                <div class="kpi-label">Amenazadas</div>
+                <div class="kpi-label">Amenazas</div>
                 <div class="kpi-sub red">pendientes</div>
             </div>
         </div>
@@ -595,19 +595,21 @@
                 </div>
                 <div style="padding:1.25rem">
                     <div
-                        style="background:#FEF3C7;border:1px solid #FDE68A;border-radius:8px;padding:1rem;margin-bottom:1rem">
-                        <div style="font-weight:600;font-size:13px;color:#92400E;margin-bottom:.4rem">⚠️ Argentina
-                            incluida en «All Countries» (Sec. 122)</div>
-                        <div style="font-size:12px;color:#78350F;line-height:1.6">Sujeta al <strong>10% de arancel
-                                base</strong> sobre acero/aluminio (efectivo 24 Feb 2026). Se amenaza un aumento al 15%.
-                        </div>
+                        style="background:#DCFCE7;border:1px solid #BBF7D0;border-radius:8px;padding:1rem;margin-bottom:1rem">
+                        <div style="font-weight:600;font-size:13px;color:#15803D;margin-bottom:.4rem">🤝 Acuerdo de
+                            Comercio e Inversión Recíprocos (TIFA)</div>
+                        <div style="font-size:12px;color:#166534;line-height:1.6">Argentina firmó un acuerdo marco con
+                            EE.UU. que regula el acceso al mercado y reduce la exposición arancelaria bilateral. <a
+                                href="https://ar.usembassy.gov/es/acuerdo-de-comercio-e-inversion-reciprocos-entre-los-estados-unidos-y-la-argentina/"
+                                target="_blank" style="color:#15803D;font-weight:600">Ver acuerdo →</a></div>
                     </div>
                     <div
-                        style="background:#DCFCE7;border:1px solid #BBF7D0;border-radius:8px;padding:1rem;margin-bottom:1rem">
-                        <div style="font-weight:600;font-size:13px;color:#15803D;margin-bottom:.4rem">✅ Sin arancel
-                            recíproco específico confirmado</div>
-                        <div style="font-size:12px;color:#166534;line-height:1.6">Argentina no figura en la lista de
-                            países con aranceles bilaterales específicos. Los marcos recíprocos están en proceso.</div>
+                        style="background:#FEF3C7;border:1px solid #FDE68A;border-radius:8px;padding:1rem;margin-bottom:1rem">
+                        <div style="font-weight:600;font-size:13px;color:#92400E;margin-bottom:.4rem">⚠️ Sec. 122 —
+                            Arancel base global 10%</div>
+                        <div style="font-size:12px;color:#78350F;line-height:1.6">Como el resto del mundo, Argentina
+                            está sujeta al <strong>10% sobre acero/aluminio</strong> (efectivo 24 Feb 2026). El acuerdo
+                            TIFA podría reducir o eliminar esta carga.</div>
                     </div>
                     <div style="background:#EBF4FF;border:1px solid #BAD8F7;border-radius:8px;padding:1rem">
                         <div style="font-weight:600;font-size:13px;color:#1B3A5C;margin-bottom:.6rem">📦 Sectores
@@ -788,9 +790,9 @@
 
         // ── KPIs ──────────────────────────────────────────────────────────────────────
         function computeKPIs() {
-            const uniqueC = new Set(countryData.map(d => d.country).filter(c => c !== 'All Countries'));
-            document.getElementById('kpi-countries').textContent = uniqueC.size;
-            document.getElementById('kpi-countries-sub').textContent = countryData.length + ' medidas totales';
+            // Countries: Sec. 122 applies globally (~180 countries), specific bilateral measures tracked separately
+            document.getElementById('kpi-countries').textContent = '180+';
+            document.getElementById('kpi-countries-sub').textContent = '10% base global (Sec. 122)';
             document.getElementById('kpi-products').textContent = productData.length;
             document.getElementById('count-countries').textContent = countryData.length;
             document.getElementById('count-products').textContent = productData.length;
@@ -801,7 +803,8 @@
             document.getElementById('kpi-max-country-sub').textContent = maxC.country || '';
 
             const maxP = productData.reduce((a, b) => (b.rateNum || 0) > (a.rateNum || 0) ? b : a, { rateNum: 0 });
-            document.getElementById('kpi-max-product').textContent = maxP.rate || '—';
+            // Show only the numeric max to keep KPI clean
+            document.getElementById('kpi-max-product').textContent = maxP.rateNum ? maxP.rateNum + '%' : (maxP.rate || '—');
             document.getElementById('kpi-max-product-sub').textContent = (maxP.product || '').substring(0, 30);
 
             document.getElementById('kpi-impl').textContent = allData.filter(d => d.status === 'implemented').length;
