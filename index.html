@@ -615,7 +615,8 @@
                         <div style="display:grid;gap:.4rem">
                             <div
                                 style="display:flex;justify-content:space-between;font-size:12px;padding:.3rem .5rem;background:#fff;border-radius:6px;border:1px solid #E2E8F0">
-                                <span>🥩 Agropecuario</span><span style="color:#E74C3C;font-weight:600">TBD</span></div>
+                                <span>🥩 Agropecuario</span><span style="color:#E74C3C;font-weight:600">TBD</span>
+                            </div>
                             <div
                                 style="display:flex;justify-content:space-between;font-size:12px;padding:.3rem .5rem;background:#fff;border-radius:6px;border:1px solid #E2E8F0">
                                 <span>🏗️ Acero y Aluminio</span><span style="color:#F39C12;font-weight:600">50%</span>
@@ -623,7 +624,8 @@
                             <div
                                 style="display:flex;justify-content:space-between;font-size:12px;padding:.3rem .5rem;background:#fff;border-radius:6px;border:1px solid #E2E8F0">
                                 <span>⚗️ Farmacéuticos</span><span style="color:#E74C3C;font-weight:600">100%
-                                    (amenazado)</span></div>
+                                    (amenazado)</span>
+                            </div>
                             <div
                                 style="display:flex;justify-content:space-between;font-size:12px;padding:.3rem .5rem;background:#fff;border-radius:6px;border:1px solid #E2E8F0">
                                 <span>⛏️ Minerales Críticos</span><span style="color:#E74C3C;font-weight:600">TBD</span>
@@ -724,8 +726,9 @@
                 productData = data.products || [];
                 // Update meta
                 if (data.article_date) {
-                    const d = new Date(data.article_date);
-                    document.getElementById('header-date').textContent = 'Fuente: ' + d.toLocaleDateString('es-AR', { day: 'numeric', month: 'long', year: 'numeric' });
+                    const [y, m, d] = data.article_date.split('-').map(Number);
+                    const dateStr = new Date(y, m - 1, d).toLocaleDateString('es-AR', { day: 'numeric', month: 'long', year: 'numeric' });
+                    document.getElementById('header-date').textContent = 'Fuente: ' + dateStr;
                 }
                 if (data.scraped_at) {
                     const d = new Date(data.scraped_at);
