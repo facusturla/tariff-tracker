@@ -1,41 +1,41 @@
-# Trump 2.0 Tariff Tracker 🌎
+# Trump 2.0 Tariff Tracker
 
-**By [PromArgentina](https://argentina.ar)** — Agencia Argentina de Promoción de Inversiones y Comercio Internacional
+Interactive dashboard tracking U.S. tariff policy under the Trump administration — country-specific and product-specific measures, with real-time status (implemented, threatened, or delayed).
 
-Live dashboard: **https://facusturla.github.io/tariff-tracker**
+🔗 **Live site:** https://facusturla.github.io/tariff-tracker
 
-## What this is
+---
 
-An interactive dashboard tracking Trump 2.0 tariff policies, automatically updated daily from the [Trade Compliance Resource Hub (Reed Smith)](https://www.tradecomplianceresourcehub.com).
+## What's tracked
 
-Features:
-- 🗺️ World map with tariff markers by country
-- 📋 Filterable tables (by country and by product)
-- 🇦🇷 Argentina-specific impact analysis
-- 📊 KPI cards (max tariff, implemented vs threatened, etc.)
-- ⚙️ Auto-updated daily via GitHub Actions
+- **Country-specific tariffs** — measures targeting Canada, China, the EU, Russia, and others
+- **Product-specific tariffs** — steel, aluminum, autos, semiconductors, pharmaceuticals, and more
+- Current status of each measure (implemented / threatened / delayed)
+- Argentina-specific impact analysis
 
-## How it works
+Data source: [Trade Compliance Resource Hub — Reed Smith](https://www.tradecomplianceresourcehub.com)
 
-```
-scraper/scrape.py          Fetches & parses the Reed Smith tracker page
-       ↓
-data/tariffs.json          Stores structured tariff data
-       ↓
-index.html                 Reads tariffs.json and renders the dashboard
-```
+> **Copyright notice:** All tariff data is sourced from the *Trade Compliance Resource Hub*, published by [Reed Smith LLP](https://www.reedsmith.com). Content is the intellectual property of Reed Smith LLP and its authors. This dashboard reproduces data for informational and non-commercial research purposes only. For the original and authoritative text, refer to the source linked above.
 
-## Auto-update schedule
+> **Note:** The U.S. Supreme Court ruled that IEEPA does not authorize the President to impose tariffs. Several measures may be subject to legal challenge.
 
-GitHub Actions runs `scraper/scrape.py` every day at **08:00 UTC** (05:00 Buenos Aires).
-If the data changed, it auto-commits and updates the live site.
+---
 
-You can also trigger a manual update from the **Actions** tab in GitHub.
+## Auto-updates
 
-## Local development
+A GitHub Action scrapes the Reed Smith tracker every day at 08:00 UTC and updates `data/tariffs.json` automatically if anything changed. No manual intervention needed.
+
+---
+
+## Local setup
 
 ```bash
 pip install requests beautifulsoup4 lxml
 python scraper/scrape.py
-# then open index.html in your browser
 ```
+
+Then open `index.html` in your browser.
+
+---
+
+*Maintained by [PromArgentina](https://argentina.ar/es/quienes-somos) — Agencia Argentina de Promoción de Inversiones y Comercio Internacional*
