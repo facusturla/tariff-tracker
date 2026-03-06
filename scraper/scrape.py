@@ -213,6 +213,57 @@ def parse_tables(soup: BeautifulSoup) -> tuple[list, list]:
     return country_rows, product_rows
 
 
+def extract_context(soup: BeautifulSoup) -> list[dict]:
+    """
+    Extract context/explanatory sections that appear below the tables.
+    Returns a list of {heading, items} dicts.
+    """
+    sections = []
+    # Find the last table in the article, then grab everything after it
+    tables = soup.find_all("table")
+    if not tables:
+        return sections
+
+    last_table = tables[-1]
+    current_heading = None
+    current_items = []
+
+    # Walk siblings after the last table
+    for el in last_table.find_all_next():
+        tag = el.name
+        if not tag:
+            continue
+        # Stop at footer / nav / aside
+        if tag in ("footer", "nav", "aside"):
+            break
+        # Headings start a new section
+        if tag in ("h2", "h3", "h4"):
+            if current_heading and current_items:
+                sections.append({"heading": current_heading, "items": current_items})
+            current_heading = el.get_text(" ", strip=True)
+            current_items = []
+        elif tag in ("p", "li"):
+            text = el.get_text(" ", strip=True)
+            if text and len(text) > 20:  # skip trivial lines
+                current_items.append(text)
+
+    # Flush last section
+    if current_heading and current_items:
+        sections.append({"heading": current_heading, "items": current_items})
+
+    # If no headings found, fallback: grab all paragraphs after last table
+    if not sections:
+        items = []
+        for el in last_table.find_all_next(["p", "li"]):
+            text = el.get_text(" ", strip=True)
+            if text and len(text) > 20:
+                items.append(text)
+        if items:
+            sections.append({"heading": "Notes & Context", "items": items})
+
+    return sections
+
+
 # ── Main ─────────────────────────────────────────────────────────────────────
 
 def main():
@@ -229,21 +280,26 @@ def main():
     date_match = re.search(r"/(\d{4}/\d{2}/\d{2})/", url)
     article_date = date_match.group(1).replace("/", "-") if date_match else datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
-    print("[3/4] Parsing tables...")
+    print("[3/5] Parsing tables...")
     country_rows, product_rows = parse_tables(soup)
     print(f"      → {len(country_rows)} country rows, {len(product_rows)} product rows")
 
-    print("[4/4] Writing data/tariffs.json...")
+    print("[4/5] Extracting context sections...")
+    context_sections = extract_context(soup)
+    print(f"      → {len(context_sections)} context sections")
+
+    print("[5/5] Writing data/tariffs.json...")
     output = {
         "scraped_at": datetime.now(timezone.utc).isoformat(),
         "article_date": article_date,
         "source_url": url,
         "countries": country_rows,
         "products": product_rows,
+        "context": context_sections,
     }
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_FILE.write_text(json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"      → Saved {len(country_rows) + len(product_rows)} records to {OUTPUT_FILE}")
+    print(f"      → Saved {len(country_rows) + len(product_rows)} records + {len(context_sections)} context sections to {OUTPUT_FILE}")
     print("Done ✓")
 
 

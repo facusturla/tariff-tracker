@@ -502,6 +502,87 @@
         footer strong {
             color: var(--navy2)
         }
+
+        /* ACCORDION */
+        .accordion {
+            background: #fff;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            box-shadow: 0 1px 4px rgba(0, 0, 0, .06);
+            margin-bottom: 1.25rem;
+            overflow: hidden
+        }
+
+        .accordion-header {
+            padding: .9rem 1.25rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+            user-select: none;
+            transition: background .15s
+        }
+
+        .accordion-header:hover {
+            background: #F8FAFF
+        }
+
+        .accordion-header h2 {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text);
+            text-transform: uppercase;
+            letter-spacing: .5px
+        }
+
+        .accordion-chevron {
+            font-size: 11px;
+            color: var(--muted);
+            transition: transform .2s
+        }
+
+        .accordion-chevron.open {
+            transform: rotate(180deg)
+        }
+
+        .accordion-body {
+            display: none;
+            border-top: 1px solid var(--border)
+        }
+
+        .accordion-body.open {
+            display: block
+        }
+
+        .context-section {
+            padding: 1rem 1.25rem;
+            border-bottom: 1px solid var(--border)
+        }
+
+        .context-section:last-child {
+            border-bottom: none
+        }
+
+        .context-heading {
+            font-size: 12px;
+            font-weight: 700;
+            color: var(--navy2);
+            margin-bottom: .5rem;
+            text-transform: uppercase;
+            letter-spacing: .4px
+        }
+
+        .context-item {
+            font-size: 12px;
+            color: var(--muted);
+            line-height: 1.65;
+            padding: .2rem 0 .2rem .75rem;
+            border-left: 2px solid var(--border)
+        }
+
+        .context-item+.context-item {
+            margin-top: .35rem
+        }
     </style>
 </head>
 
@@ -702,6 +783,17 @@
                 </div>
             </div>
         </div>
+
+        <!-- CONTEXT ACCORDION -->
+        <div class="accordion" id="context-accordion" style="display:none">
+            <div class="accordion-header" onclick="toggleAccordion()">
+                <h2>📖 Notas &amp; Contexto — Reed Smith</h2>
+                <span class="accordion-chevron" id="accordion-chevron">▼</span>
+            </div>
+            <div class="accordion-body" id="accordion-body">
+                <div id="context-sections"></div>
+            </div>
+        </div>
     </main>
 
     <footer>
@@ -716,6 +808,26 @@
         // ── State ────────────────────────────────────────────────────────────────────
         let countryData = [], productData = [];
         const state = { countries: { filter: 'all', search: '' }, products: { filter: 'all', search: '' } };
+
+        // ── Accordion ─────────────────────────────────────────────────────────────────
+        function toggleAccordion() {
+            const body = document.getElementById('accordion-body');
+            const chevron = document.getElementById('accordion-chevron');
+            const open = body.classList.toggle('open');
+            chevron.classList.toggle('open', open);
+        }
+
+        function renderContext(sections) {
+            if (!sections || !sections.length) return;
+            const wrap = document.getElementById('context-sections');
+            wrap.innerHTML = sections.map(s => `
+                <div class="context-section">
+                    <div class="context-heading">${s.heading}</div>
+                    ${s.items.map(item => `<div class="context-item">${item}</div>`).join('')}
+                </div>
+            `).join('');
+            document.getElementById('context-accordion').style.display = 'block';
+        }
 
         // ── Load data from tariffs.json (GitHub Pages serves it as static file) ──────
         async function loadData() {
@@ -739,6 +851,9 @@
                 if (data.source_url) {
                     document.getElementById('source-link').href = data.source_url;
                     document.getElementById('footer-link').href = data.source_url;
+                }
+                if (data.context) {
+                    renderContext(data.context);
                 }
             } catch (e) {
                 console.warn('Could not load data/tariffs.json, using fallback data.', e);

@@ -349,5 +349,46 @@
             "scope": "Sec. 232 Investigation. Aug 21 2025.",
             "notes": ""
         }
+    ],
+    "context": [
+        {
+            "heading": "Section 122 — Tariff Exemptions",
+            "items": [
+                "Goods in transit before Feb 24, 2026 and entered before Feb 28, 2026 (saving clause).",
+                "Goods already subject to Section 232 tariffs: aluminum, steel, automobiles, auto parts, buses, medium/heavy-duty vehicles, lumber, copper, and semiconductors (or the portion of value subject to those tariffs).",
+                "Civil aircraft articles described in U.S. Note 2(aa)(iv) to Subchapter III of Chapter 99.",
+                "USMCA: goods qualifying for duty-free treatment under the agreement.",
+                "CAFTA-DR: textile or apparel articles qualifying for duty-free treatment.",
+                "Annex II Proclamation (Feb 20, 2026): includes certain agricultural products, pharmaceuticals, energy products, and humanitarian donations (food, clothing, medicine).",
+                "Information and informational materials."
+            ]
+        },
+        {
+            "heading": "Tariff Stacking Rules",
+            "items": [
+                "ALWAYS STACK on top of any tariff: General Column 1 duties, Antidumping / Countervailing duties, and Section 301 tariffs on Chinese-origin goods.",
+                "DO NOT STACK on each other: Automobiles, auto parts, buses, and medium/heavy-duty vehicles — Sec. 232 tariffs do not stack with other Sec. 232 or Sec. 122 tariffs.",
+                "CAN STACK with each other: Aluminum and steel Sec. 232 tariffs may both apply if both are relevant to the product.",
+                "DO NOT STACK on Sec. 122: Aluminum, steel, copper, lumber, and semiconductor Sec. 232 tariffs do not stack on top of the Section 122 baseline tariff."
+            ]
+        },
+        {
+            "heading": "Technical Definitions & Footnotes",
+            "items": [
+                "Scope: Based on the product's country of origin unless otherwise noted in the measure.",
+                "BRICS Members (as of this tracker): Brazil, China, Egypt, Ethiopia, India, Indonesia, Iran, United Arab Emirates, Russia, and South Africa.",
+                "Column 1 Duty Rate: The ad valorem rate under 'Column 1 – General' of the Harmonized Tariff Schedule of the United States (HTSUS).",
+                "DST (Digital Services Tax): A levy imposed by certain countries on revenues from digital services; subject to U.S. retaliatory tariff threats under Section 301."
+            ]
+        },
+        {
+            "heading": "Key Policy Dates & Legal Context",
+            "items": [
+                "Feb 20, 2026: U.S. Supreme Court ruled that IEEPA (International Emergency Economic Powers Act) does not authorize the President to impose tariffs. Many current tariffs were issued under IEEPA and may now be invalidated, though questions about refunds remain pending.",
+                "Feb 24, 2026: Section 122 baseline tariff (10%) on steel and aluminum became effective for all countries.",
+                "Jan 15, 2026: 25% tariff on logic integrated circuits (semiconductors) took effect.",
+                "Nov 10, 2026: Delayed effective date for maritime equipment tariffs (ship-to-shore cranes, intermodal chassis) originally proposed under Sec. 301 against China."
+            ]
+        }
     ]
 }
