@@ -1,394 +1,438 @@
 {
-    "scraped_at": "2026-03-05T19:10:00+00:00",
-    "article_date": "2026-03-05",
-    "source_url": "https://www.tradecomplianceresourcehub.com/2026/03/05/trump-2-0-tariff-tracker/",
-    "countries": [
-        {
-            "country": "All Countries",
-            "status": "implemented",
-            "rate": "10%",
-            "rateNum": 10,
-            "scope": "Sec. 122 — Acero y Aluminio (efectivo 24 Feb 2026). Se amenaza aumento al 15%.",
-            "countermeasures": "—"
-        },
-        {
-            "country": "Russia (related)",
-            "status": "threatened",
-            "rate": "500%",
-            "rateNum": 500,
-            "scope": "Sanctioning Russia Act of 2025 — países que adquieran energía rusa.",
-            "countermeasures": "—"
-        },
-        {
-            "country": "Russia",
-            "status": "threatened",
-            "rate": "500%",
-            "rateNum": 500,
-            "scope": "Todos los productos de origen ruso (Ukraine-related sanctions, Jan 7 2026).",
-            "countermeasures": "—"
-        },
-        {
-            "country": "Canada",
-            "status": "threatened",
-            "rate": "250%",
-            "rateNum": 250,
-            "scope": "Dairy y Lumber: 250% (Mar 7 2025).",
-            "countermeasures": "Sí"
-        },
-        {
-            "country": "Canada",
-            "status": "threatened",
-            "rate": "50%",
-            "rateNum": 50,
-            "scope": "Aircraft: 50% (Jan 29 2026).",
-            "countermeasures": "Sí"
-        },
-        {
-            "country": "France",
-            "status": "threatened",
-            "rate": "200%",
-            "rateNum": 200,
-            "scope": "Alcohol products (Jan 19 2026).",
-            "countermeasures": "—"
-        },
-        {
-            "country": "European Union",
-            "status": "threatened",
-            "rate": "200%",
-            "rateNum": 200,
-            "scope": "Alcohol products (Mar 13 2025).",
-            "countermeasures": "Sí"
-        },
-        {
-            "country": "European Union",
-            "status": "threatened",
-            "rate": "TBD",
-            "rateNum": null,
-            "scope": "Digital Services Tax (Feb 21 2025).",
-            "countermeasures": "Sí"
-        },
-        {
-            "country": "China",
-            "status": "delayed",
-            "rate": "25%",
-            "rateNum": 25,
-            "scope": "Maritime and cargo handling equipment — Delayed until Nov 10, 2026.",
-            "countermeasures": "Sí"
-        },
-        {
-            "country": "Nicaragua",
-            "status": "implemented",
-            "rate": "0-15%",
-            "rateNum": 0,
-            "scope": "Sec. 301 — 0% (2026), 10% (2027), 15% (desde 2028). Solo bienes CAFTA-DR.",
-            "countermeasures": "—"
-        },
-        {
-            "country": "Austria",
-            "status": "threatened",
-            "rate": "TBD",
-            "rateNum": null,
-            "scope": "Digital Services Tax (Feb 21 2025).",
-            "countermeasures": "—"
-        },
-        {
-            "country": "Spain",
-            "status": "threatened",
-            "rate": "TBD",
-            "rateNum": null,
-            "scope": "Digital Services Tax (Feb 21 2025).",
-            "countermeasures": "—"
-        },
-        {
-            "country": "Turkey",
-            "status": "threatened",
-            "rate": "TBD",
-            "rateNum": null,
-            "scope": "Digital Services Tax (Feb 21 2025).",
-            "countermeasures": "—"
-        },
-        {
-            "country": "United Kingdom",
-            "status": "threatened",
-            "rate": "TBD",
-            "rateNum": null,
-            "scope": "Digital Services Tax. En negociación (Trade Deal).",
-            "countermeasures": "—"
-        },
-        {
-            "country": "Additional (DSTs)",
-            "status": "threatened",
-            "rate": "TBD",
-            "rateNum": null,
-            "scope": "Cualquier país con Digital Services Tax (Aug 25 2025).",
-            "countermeasures": "—"
-        }
-    ],
-    "products": [
-        {
-            "product": "Steel articles & derivative products",
-            "status": "implemented",
-            "rate": "25% (UK) / 50%",
-            "rateNum": 50,
-            "scope": "Todos los países excepto UK. Efectivo 12 Mar 2025. Incluye derivados (desde 18 Ago 2025).",
-            "notes": "Excepción aeroespacial para UK, UE y Japón."
-        },
-        {
-            "product": "Aluminum articles & derivative products",
-            "status": "implemented",
-            "rate": "25% (UK) / 200% (RUS) / 50%",
-            "rateNum": 200,
-            "scope": "Efectivo 12 Mar 2025. Incluye productos derivados adicionales (desde 18 Ago 2025).",
-            "notes": "Excepción aeroespacial para UK, UE y Japón."
-        },
-        {
-            "product": "Automobiles",
-            "status": "implemented",
-            "rate": "25%",
-            "rateNum": 25,
-            "scope": "Efectivo 3 Abr 2025. Tasa reducida para UE, Japón, Corea del Sur.",
-            "notes": "Exención USMCA para contenido no-estadounidense."
-        },
-        {
-            "product": "Automobile parts",
-            "status": "implemented",
-            "rate": "10% (UK) / 25%",
-            "rateNum": 25,
-            "scope": "Efectivo 3 May 2025. Exención USMCA.",
-            "notes": "Tasa reducida para UE, Japón, Corea del Sur."
-        },
-        {
-            "product": "Copper",
-            "status": "implemented",
-            "rate": "50%",
-            "rateNum": 50,
-            "scope": "Efectivo 1 Ago 2025. Productos de cobre semi-terminados.",
-            "notes": "Excepción aeroespacial UE y Japón."
-        },
-        {
-            "product": "Semiconductors & semiconductor manufacturing equipment",
-            "status": "implemented",
-            "rate": "25%",
-            "rateNum": 25,
-            "scope": "Efectivo 15 Ene 2026. Circuitos lógicos integrados.",
-            "notes": "Exención: centros de datos, I+D, startups, electrónica de consumo no-datacenter (hasta 2028)."
-        },
-        {
-            "product": "Lumber, timber (softwood)",
-            "status": "implemented",
-            "rate": "10%",
-            "rateNum": 10,
-            "scope": "Efectivo 14 Oct 2025.",
-            "notes": ""
-        },
-        {
-            "product": "Upholstered wooden furniture",
-            "status": "implemented",
-            "rate": "10% (UK) / var. (UE/JPN/KOR)",
-            "rateNum": 10,
-            "scope": "Efectivo 14 Oct 2025.",
-            "notes": ""
-        },
-        {
-            "product": "Kitchen cabinets & vanities",
-            "status": "implemented",
-            "rate": "10% (UK) / var. (UE/JPN/KOR)",
-            "rateNum": 10,
-            "scope": "Efectivo 14 Oct 2025.",
-            "notes": ""
-        },
-        {
-            "product": "Maritime: Intermodal chassis & parts",
-            "status": "delayed",
-            "rate": "100%",
-            "rateNum": 100,
-            "scope": "Delayed until Nov 10, 2026. Solo productos chinos.",
-            "notes": ""
-        },
-        {
-            "product": "Maritime: Ship-to-shore gantry cranes",
-            "status": "delayed",
-            "rate": "100%",
-            "rateNum": 100,
-            "scope": "Delayed until Nov 10, 2026. Origen chino o componentes chinos.",
-            "notes": "Exención: contratos previos a Apr 17 2025."
-        },
-        {
-            "product": "Maritime: Other cranes & equipment",
-            "status": "threatened",
-            "rate": "150%",
-            "rateNum": 150,
-            "scope": "Threatened Oct 15 2025. Rubber tire gantry cranes, straddle carriers, terminal tractors, etc.",
-            "notes": ""
-        },
-        {
-            "product": "Trucks & heavy vehicles (medium/heavy-duty)",
-            "status": "implemented",
-            "rate": "25%",
-            "rateNum": 25,
-            "scope": "Efectivo 1 Nov 2025.",
-            "notes": "Exención: vehículos fabricados hace 25+ años."
-        },
-        {
-            "product": "Buses",
-            "status": "implemented",
-            "rate": "10%",
-            "rateNum": 10,
-            "scope": "Efectivo 1 Nov 2025.",
-            "notes": ""
-        },
-        {
-            "product": "Truck parts (medium/heavy-duty)",
-            "status": "implemented",
-            "rate": "25%",
-            "rateNum": 25,
-            "scope": "Efectivo 1 Nov 2025. Exención USMCA.",
-            "notes": ""
-        },
-        {
-            "product": "Pharmaceuticals & pharmaceutical ingredients",
-            "status": "threatened",
-            "rate": "100%",
-            "rateNum": 100,
-            "scope": "Solo marcas patentadas. Amenazado para Oct 1.",
-            "notes": "Exención: empresas construyendo planta en EE.UU."
-        },
-        {
-            "product": "Movies (foreign-produced)",
-            "status": "threatened",
-            "rate": "100%",
-            "rateNum": 100,
-            "scope": "Todas las películas producidas en el extranjero.",
-            "notes": ""
-        },
-        {
-            "product": "Integrated circuits",
-            "status": "threatened",
-            "rate": "100%",
-            "rateNum": 100,
-            "scope": "Sec. 232 Investigation. TBD scope.",
-            "notes": "Ver también semiconductores."
-        },
-        {
-            "product": "iPhones",
-            "status": "threatened",
-            "rate": "25%",
-            "rateNum": 25,
-            "scope": "TBD.",
-            "notes": ""
-        },
-        {
-            "product": "Agricultural products",
-            "status": "threatened",
-            "rate": "TBD",
-            "rateNum": null,
-            "scope": "TBD. Amenazado Mar 3 2025.",
-            "notes": ""
-        },
-        {
-            "product": "Commercial aircraft & jet engines",
-            "status": "threatened",
-            "rate": "TBD",
-            "rateNum": null,
-            "scope": "Sec. 232 Investigation. Amenazado May 13 2025.",
-            "notes": ""
-        },
-        {
-            "product": "Oil and gas",
-            "status": "threatened",
-            "rate": "TBD",
-            "rateNum": null,
-            "scope": "TBD. Amenazado Jan 31 2025.",
-            "notes": ""
-        },
-        {
-            "product": "PPE, medical consumables & devices",
-            "status": "threatened",
-            "rate": "TBD",
-            "rateNum": null,
-            "scope": "Sec. 232 Investigation. Sep 24 2025.",
-            "notes": ""
-        },
-        {
-            "product": "Polysilicon & derivatives",
-            "status": "threatened",
-            "rate": "TBD",
-            "rateNum": null,
-            "scope": "Sec. 232 Investigation. Jul 14 2025.",
-            "notes": ""
-        },
-        {
-            "product": "Processed critical minerals & derivatives",
-            "status": "threatened",
-            "rate": "TBD",
-            "rateNum": null,
-            "scope": "Sec. 232 Investigation. Acción inicial Jan 14 2026.",
-            "notes": ""
-        },
-        {
-            "product": "Robotics & industrial machinery",
-            "status": "threatened",
-            "rate": "TBD",
-            "rateNum": null,
-            "scope": "Sec. 232 Investigation. Sep 24 2025.",
-            "notes": ""
-        },
-        {
-            "product": "Unmanned aircraft systems (UAS)",
-            "status": "threatened",
-            "rate": "TBD",
-            "rateNum": null,
-            "scope": "Sec. 232 Investigation. Jul 14 2025.",
-            "notes": ""
-        },
-        {
-            "product": "Wind turbines & components",
-            "status": "threatened",
-            "rate": "TBD",
-            "rateNum": null,
-            "scope": "Sec. 232 Investigation. Aug 21 2025.",
-            "notes": ""
-        }
-    ],
-    "context": [
-        {
-            "heading": "Section 122 — Tariff Exemptions",
-            "items": [
-                "Goods in transit before Feb 24, 2026 and entered before Feb 28, 2026 (saving clause).",
-                "Goods already subject to Section 232 tariffs: aluminum, steel, automobiles, auto parts, buses, medium/heavy-duty vehicles, lumber, copper, and semiconductors (or the portion of value subject to those tariffs).",
-                "Civil aircraft articles described in U.S. Note 2(aa)(iv) to Subchapter III of Chapter 99.",
-                "USMCA: goods qualifying for duty-free treatment under the agreement.",
-                "CAFTA-DR: textile or apparel articles qualifying for duty-free treatment.",
-                "Annex II Proclamation (Feb 20, 2026): includes certain agricultural products, pharmaceuticals, energy products, and humanitarian donations (food, clothing, medicine).",
-                "Information and informational materials."
-            ]
-        },
-        {
-            "heading": "Tariff Stacking Rules",
-            "items": [
-                "ALWAYS STACK on top of any tariff: General Column 1 duties, Antidumping / Countervailing duties, and Section 301 tariffs on Chinese-origin goods.",
-                "DO NOT STACK on each other: Automobiles, auto parts, buses, and medium/heavy-duty vehicles — Sec. 232 tariffs do not stack with other Sec. 232 or Sec. 122 tariffs.",
-                "CAN STACK with each other: Aluminum and steel Sec. 232 tariffs may both apply if both are relevant to the product.",
-                "DO NOT STACK on Sec. 122: Aluminum, steel, copper, lumber, and semiconductor Sec. 232 tariffs do not stack on top of the Section 122 baseline tariff."
-            ]
-        },
-        {
-            "heading": "Technical Definitions & Footnotes",
-            "items": [
-                "Scope: Based on the product's country of origin unless otherwise noted in the measure.",
-                "BRICS Members (as of this tracker): Brazil, China, Egypt, Ethiopia, India, Indonesia, Iran, United Arab Emirates, Russia, and South Africa.",
-                "Column 1 Duty Rate: The ad valorem rate under 'Column 1 – General' of the Harmonized Tariff Schedule of the United States (HTSUS).",
-                "DST (Digital Services Tax): A levy imposed by certain countries on revenues from digital services; subject to U.S. retaliatory tariff threats under Section 301."
-            ]
-        },
-        {
-            "heading": "Key Policy Dates & Legal Context",
-            "items": [
-                "Feb 20, 2026: U.S. Supreme Court ruled that IEEPA (International Emergency Economic Powers Act) does not authorize the President to impose tariffs. Many current tariffs were issued under IEEPA and may now be invalidated, though questions about refunds remain pending.",
-                "Feb 24, 2026: Section 122 baseline tariff (10%) on steel and aluminum became effective for all countries.",
-                "Jan 15, 2026: 25% tariff on logic integrated circuits (semiconductors) took effect.",
-                "Nov 10, 2026: Delayed effective date for maritime equipment tariffs (ship-to-shore cranes, intermodal chassis) originally proposed under Sec. 301 against China."
-            ]
-        }
-    ]
+  "scraped_at": "2026-03-07T08:17:43.434436+00:00",
+  "article_date": "2026-03-05",
+  "source_url": "https://www.tradecomplianceresourcehub.com/2026/03/05/trump-2-0-tariff-tracker/",
+  "countries": [
+    {
+      "country": "All",
+      "status": "implemented",
+      "rate": "10%",
+      "rateNum": 10.0,
+      "scope": "See exemptions below 🔔 Rate increase to 15%: Threatened (Feb. 21, 2026) Ends at 12:01 a.m. (ET) on July 24, 2026 De minimis exemption suspended (effective Aug. 29, 2025; continued Feb. 20, 2026): With the exception of shipments sent through the international postal network, which are subject special duty rates, shipments that would have otherwise qualified for the de minimis exemption are subject to all applicable duties and tariffs. References: Proc. 11012 (Feb. 20, 2026)",
+      "countermeasures": "—"
+    },
+    {
+      "country": "Additional (DSTs): Threatened (Aug. 25, 2025)",
+      "status": "tbd",
+      "rate": "All products from any country that imposes a digital services tax (DST)",
+      "rateNum": null,
+      "scope": "",
+      "countermeasures": "—"
+    },
+    {
+      "country": "Russia-related sanctions: Threatened (Jan. 7, 2026)",
+      "status": "tbd",
+      "rate": "If the Sanctioning Russia Act of 2025 passes Congress and is signed into law, the President can impose the tariff on imports from any country that knowingly sells, supplies, transfers, or purchases Russian-origin oil, uranium, natural gas, petroleum products, or petrochemical products.",
+      "rateNum": null,
+      "scope": "",
+      "countermeasures": "—"
+    },
+    {
+      "country": "Austria",
+      "status": "threatened",
+      "rate": "TBD",
+      "rateNum": null,
+      "scope": "USTR may renew its Section 301 investigation to address digital services taxes (DSTs) References: Defending American Corporations and Innovators from Overseas Extortion Memo (Feb. 21, 2025)",
+      "countermeasures": "—"
+    },
+    {
+      "country": "Additional (aircraft): Threatened (Jan. 29, 2026)",
+      "status": "tbd",
+      "rate": "TBD",
+      "rateNum": null,
+      "scope": "",
+      "countermeasures": "—"
+    },
+    {
+      "country": "China (Sec. 301) Export controls on tungsten, tellurium, bismuth, molybdenum, and indium products (effective Feb. 4, 2025) 15% tariff on supercooled natural gas and coal from the U.S. (effective Feb. 10, 2025) Imports of U.S.-origin logs suspended (effective Mar. 4, 2025) 15% tariff on U.S.-origin chicken, cotton, corn, and wheat (effective Mar. 10, 2025) 10% tariffs on U.S.-origin aquatic products, beef, dairy products, fruit, pork, sorghum, soybeans, and vegetables (effective Mar. 10, 2025) 10% tariff on U.S.-origin crude oil [Suspended until Nov. 10, 2026] Export controls on seven categories of medium and heavy rare earth-related items, including samarium, gadolinium, zirconium, dysprosium, lutetium, scandium, and yttrium (effective Apr. 4, 2025; suspended Nov. 7, 2025) [Suspended until Nov. 10, 2026] Export controls on certain foreign-produced items that incorporate Chinese rare earth materials (effective Oct. 10, 2025 with further controls effective Dec. 1, 2025; suspended Nov. 7, 2025)",
+      "status": "delayed",
+      "rate": "25%",
+      "rateNum": 25.0,
+      "scope": "See Worldwide, product-specific tariffs table below",
+      "countermeasures": "—"
+    },
+    {
+      "country": "European Union Suspended: 4.4–25% tariffs on U.S.-origin goods in Annexes I-IV to Implementing Regulation (EU) 2025/1564 7.5–30% tariffs on U.S.-origin goods in Annexes VI-XI to Implementing Regulation (EU) 2025/1564 and the direct or indirect export of goods classified in headings 7204 (ferrous waste and scrap; remelting scrap ingots of iron or steel) or 7602 (aluminum waste and scrap) to the United States 25% tariffs on U.S.-origin goods in Annex V to Implementing Regulation (EU) 2025/1564 10–30% tariffs on U.S.-origin goods in Annexes XII-XIII to Implementing Regulation (EU) 2025/1564 Proposed: A tariff-rate quota regime where specified volumes of in-scope steel can enter the EU duty free, but any imports beyond those quotas would be subject to a 50% tariff. The new regime would replace the current safeguards that are set to expire in mid-2026.",
+      "status": "threatened",
+      "rate": "200%",
+      "rateNum": 200.0,
+      "scope": "",
+      "countermeasures": "—"
+    },
+    {
+      "country": "Additional (DSTs): Threatened (Feb. 21, 2025)",
+      "status": "tbd",
+      "rate": "USTR may renew its Section 301 investigation to address digital services taxes (DSTs) References: Defending American Corporations and Innovators from Overseas Extortion Memo (Feb. 21, 2025)",
+      "rateNum": null,
+      "scope": "",
+      "countermeasures": "—"
+    },
+    {
+      "country": "France",
+      "status": "threatened",
+      "rate": "200%",
+      "rateNum": 200.0,
+      "scope": "",
+      "countermeasures": "—"
+    },
+    {
+      "country": "Nicaragua",
+      "status": "implemented",
+      "rate": "0% for goods that are originating under CAFTA-DR Jan. 1, 2026 to Dec. 31, 2026: 0% Jan. 1, 2027 to Dec. 31, 2027: 10% Starting Jan. 1, 2028: 15%",
+      "rateNum": 15.0,
+      "scope": "The USTR determined that Nicaragua’s acts, policies, and practices related to labor rights, human rights and fundamental freedoms, and the rule of law are unreasonable and burden or restrict U.S. commerce, and are therefore actionable under Section 301 of the Trade Act of 1974. References: Fed. Doc. 2025-22690 (filed Dec. 11, 2025) 90 Fed. Reg. 48511 (Oct. 23, 2025)",
+      "countermeasures": "—"
+    },
+    {
+      "country": "Russia",
+      "status": "threatened",
+      "rate": "500%",
+      "rateNum": 500.0,
+      "scope": "If the Sanctioning Russia Act of 2025 passes Congress and is signed into law, the President can impose the tariff on all imports of Russia-origin goods.",
+      "countermeasures": "—"
+    },
+    {
+      "country": "Spain",
+      "status": "threatened",
+      "rate": "TBD",
+      "rateNum": null,
+      "scope": "USTR may renew its Section 301 investigation to address digital services taxes (DSTs) References: Defending American Corporations and Innovators from Overseas Extortion Memo (Feb. 21, 2025)",
+      "countermeasures": "—"
+    },
+    {
+      "country": "Turkey",
+      "status": "threatened",
+      "rate": "TBD",
+      "rateNum": null,
+      "scope": "USTR may renew its Section 301 investigation to address digital services taxes (DSTs) References: Defending American Corporations and Innovators from Overseas Extortion Memo (Feb. 21, 2025)",
+      "countermeasures": "—"
+    },
+    {
+      "country": "United Kingdom",
+      "status": "threatened",
+      "rate": "TBD",
+      "rateNum": null,
+      "scope": "USTR may renew its Section 301 investigation to address digital services taxes (DSTs) References: Defending American Corporations and Innovators from Overseas Extortion Memo (Feb. 21, 2025)",
+      "countermeasures": "—"
+    }
+  ],
+  "products": [
+    {
+      "product": "Agricultural products",
+      "status": "threatened",
+      "rate": "TBD",
+      "rateNum": null,
+      "scope": "TBD",
+      "notes": ""
+    },
+    {
+      "product": "Aluminum articles and derivative products",
+      "status": "implemented",
+      "rate": "UK-origin products: 25% Russian-origin products: 200% All other countries: 50%",
+      "rateNum": 200.0,
+      "scope": "See Note 19, Subchapter III, Chapter 99, HTSUS Applies by HTSUS classification Expanded Includes additional derivative products (effective Aug. 18, 2025)",
+      "notes": "See stacking explanation below Calculation: (a) Aluminum tariff applies to the known value of the aluminum content (b) Remaining value is subject to the applicable reciprocal tariff (or “fentanyl” tariff for Canadian- and Mexican-origin goods) Exemptions: (a) UK aerospace exemption (effective June 23, 2025) (b) EU aerospace exemption (effective Sept. 1, 2025) (c) Japan aerospace exemption (effective Sept. 16, 2025) UK aerospace exemption: applies to products that fall under the WTO Agreement on Trade in Civil Aircraft On or after July 9, 2025, the Secretary of Commerce may adjust the tariff rate for UK-origin products or implement import quotas, consistent with the U.S.-UK Economic Prosperity Deal announced on May 8, 2025. EU aerospace exemption: applicable products listed by HTSUS classification that satisfy the scope limitations in U.S. Note 2(v)(xviii), Subchapter III, Chapter 99, HTSUS Japan aerospace exemption: applies to products that fall under the WTO Agreement on Trade in Civil Aircraft (except unmanned aircraft) Stacking (Mar. 4 – June 4, 2025): goods that are also subject to (a) the Section 232 tariffs on automobiles or automobile parts or (b) the tariffs on Canadian- and Mexican-origin goods are not subject to Section 232 tariffs on aluminum and derivative products All country exclusions from the existing Section 232 tariffs on aluminum and derivative aluminum articles are revoked. Individual exclusions and General Authorized Exclusions are also being revoked. References: 90 Fed. Reg. 43136 (Sept. 25, 2025) Exec. Order 14345 (Sept. 4, 2025) Exec. Order 14309 (June 16, 2025) Proclamation 10947 (June 3, 2025) Exec. Order 14289 (Apr. 29, 2025) Proclamation 10895 (Feb. 10, 2025)"
+    },
+    {
+      "product": "Automobiles",
+      "status": "implemented",
+      "rate": "25% Modified rate for products of EU Member States, Japan, or South Korea: (EU rate effective Aug. 1, 2025; Japan rate effective Sept. 16, 2025; South Korea rate effective Nov. 1, 2025) 0% for all products with a Column 1 Duty Rate ≥ 15% 15% minus Column 1 Duty Rate for all products with a Column 1 Duty Rate < 15%",
+      "rateNum": 25.0,
+      "scope": "See Note 33(a)-(e), Subchapter III, Chapter 99, HTSUS Applies by HTSUS classification",
+      "notes": "See stacking explanation below 🔔 South Korea rate: Threatened increase to 25% (Jan. 27, 2025) Calculation: If the product qualifies for preferential treatment under the USMCA, the tariff applies to the non-U.S. content. UK aerospace exemption: products that fall under the WTO Agreement on Trade in Civil Aircraft (effective June 23, 2025) References: Fed. Reg. Doc. 2025-21940 (filed Dec. 3, 2025) 90 Fed. Reg. 43136 (Sept. 25, 2025) Exec. Order 14345 (Sept. 4, 2025) Exec. Order 14309 (June 16, 2025) Exec. Order 14289 (Apr. 29, 2025) Proclamation 10908 (Mar. 26, 2025)"
+    },
+    {
+      "product": "Automobile parts",
+      "status": "implemented",
+      "rate": "UK-origin products for use in UK-origin automobiles: 10% (including any most-favored nation duties) All other countries: 25% Modified rate for products of EU Member States, Japan, or South Korea : (EU rate effective Aug. 1, 2025; Japan rate effective Sept. 16, 2025; South Korea rate effective Nov. 1, 2025) 0% for all products with a Column 1 Duty Rate ≥ 15% 15% minus Column 1 Duty Rate for all products with a Column 1 Duty Rate < 15%",
+      "rateNum": 25.0,
+      "scope": "See Note 33(g)-(h), Subchapter III, Chapter 99, HTSUS Applies by HTSUS classification",
+      "notes": "See stacking explanation below Exemptions: USMCA (effective Mar. 26, 2025) Potential reductions: (a) Domestic vehicle manufacturer’s import adjustment (b) Domestic engine manufacturer’s import adjustment Potential reductions: (a) Automobile manufacturers can apply for an import adjustment offset equal to 3.75% of the aggregate MSRP value of all automobiles they assemble in the United States from April 5, 2025 through April 30, 2030. The import adjustment will be applied to parts accounting for 15% of an automobile’s value. To be included in the import adjustment calculation, vehicles must undergo final assembly in the United States. (b) Commerce will establish a similar import adjustment for engine manufacturers. The offset accrual will be based on the aggregate value of automobile engines they assemble in the United States. Drawback eligibility: manufacturing drawback only (effective Oct. 17, 2025) References: Fed. Reg. Doc. 2025-21940 (filed Dec. 3, 2025) Proclamation (Oct. 17, 2025) 90 Fed. Reg. 43136 (Sept. 25, 2025) Exec. Order 14345 (Sept. 4, 2025) Exec. Order 14309 (June 16, 2025) Exec. Order 14289 (Apr. 29, 2025) Proclamation 10908 (Mar. 26, 2025)"
+    },
+    {
+      "product": "Commercial aircraft and jet engines",
+      "status": "threatened",
+      "rate": "TBD",
+      "rateNum": null,
+      "scope": "TBD",
+      "notes": "References: 90 Fed. Reg. 20273 (May 13, 2025)"
+    },
+    {
+      "product": "Copper",
+      "status": "implemented",
+      "rate": "50%",
+      "rateNum": 50.0,
+      "scope": "See Note 36, Subchapter III, Chapter 99, HTSUS Applies to semi-finished copper products and intensive copper derivative products by HTSUS classification",
+      "notes": "See stacking explanation below Calculation: (a) Copper tariff applies to the known value of the copper content (b) Remaining value is subject to the applicable reciprocal tariff (or “fentanyl” tariff for Canadian- and Mexican-origin goods) Exemptions: (a) EU aerospace exemption (effective Sept. 1, 2025) (b) Japan aerospace exemption (effective Sept. 16, 2025) EU aerospace exemption: applicable products listed by HTSUS classification that satisfy the scope limitations in U.S. Note 2(v)(xviii), Subchapter III, Chapter 99, HTSUS Japan aerospace exemption: applies to products that fall under the WTO Agreement on Trade in Civil Aircraft (except unmanned aircraft) References: 90 Fed. Reg. 43136 (Sept. 25, 2025) Exec. Order 14345 (Sept. 4, 2025) Proclamation 10962 (July 30, 2025) Exec. Order 14220 (Feb. 25, 2025)"
+    },
+    {
+      "product": "Integrated circuits",
+      "status": "threatened",
+      "rate": "100%",
+      "rateNum": 100.0,
+      "scope": "TBD",
+      "notes": "See semiconductors, semiconductor equipment, and derivative products below On April 1, Commerce initiated a Section 232 investigation to determine the effects on national security of imports of legacy chips, leading-edge chips, and microelectronics. References: 90 Fed. Reg. 15950 (Apr. 16, 2025)"
+    },
+    {
+      "product": "iPhones",
+      "status": "threatened",
+      "rate": "25%",
+      "rateNum": 25.0,
+      "scope": "TBD",
+      "notes": ""
+    },
+    {
+      "product": "Lumber, timber, and derivative products",
+      "status": "implemented",
+      "rate": "10%",
+      "rateNum": 10.0,
+      "scope": "See Note 37(a)-(b), Subchapter III, Chapter 99, HTSUS Applies by HTSUS classification HTSUS 4403.11.00, 4403.21.01, 4403.22.01, 4403.23.01, 4403.24.01, 4403.25.01, 4403.26.01, 4403.99.01, 4406.11.00, 4406.91.00, 4407.11.00, 4407.12.00, 4407.13.00, 4407.14.00, 4407.19.00",
+      "notes": "See stacking explanation below References: Proclamation (Sept. 29, 2025) 90 Fed. Reg. 11941 (Mar. 13, 2025) Exec. Order 14223 (Mar. 1, 2025)"
+    },
+    {
+      "product": "Upholstered wooden furniture: Implemented (effective Oct. 14, 2025)",
+      "status": "implemented",
+      "rate": "See Note 37(c)-(d), Subchapter III, Chapter 99, HTSUS Applies by HTSUS classification HTSUS 9401.61.4011, 9401.61.4031, 9401.61.6011, 9401.61.6031",
+      "rateNum": null,
+      "scope": "See stacking explanation below 🔔 South Korea rate: Threatened increase to 25% (Jan. 27, 2025) References: Proclamation (Dec. 31, 2025) Fed. Reg. Doc. 2025-21940 (filed Dec. 3, 2025) Proclamation (Sept. 29, 2025) 90 Fed. Reg. 11941 (Mar. 13, 2025) Exec. Order 14223 (Mar. 1, 2025)",
+      "notes": ""
+    },
+    {
+      "product": "Kitchen cabinets and vanities: Implemented (effective Oct. 14, 2025)",
+      "status": "implemented",
+      "rate": "See Note 37(e)-(f), Subchapter III, Chapter 99, HTSUS Applies by HTSUS classification HTSUS 9403.40.9060, 9403.60.8093, 9403.91.0080 Includes finished kitchen cabinets and vanities, as well as parts imported for use in kitchen cabinets and vanities",
+      "rateNum": null,
+      "scope": "See stacking explanation below 🔔 South Korea rate: Threatened increase to 25% (Jan. 27, 2025) References: Proclamation (Dec. 31, 2025) Fed. Reg. Doc. 2025-21940 (filed Dec. 3, 2025) Proclamation (Sept. 29, 2025) 90 Fed. Reg. 11941 (Mar. 13, 2025) Exec. Order 14223 (Mar. 1, 2025)",
+      "notes": ""
+    },
+    {
+      "product": "Maritime cargo handling equipment",
+      "status": "delayed",
+      "rate": "100%",
+      "rateNum": 100.0,
+      "scope": "See Note 31(k)(i)-(ii), Subchapter III, Chapter 99, HTSUS Chinese-origin products (HTSUS 8716.39.0090, 8716.90.30, 8716.90.50)",
+      "notes": "As part of the USTR’s Section 301 investigation into China’s targeting of the maritime, logistics, and shipbuilding sectors , President Trump directed the USTR to consider tariffs on (a) ship-to-shore cranes manufactured, assembled, or made using Chinese-origin components, or manufactured anywhere in the world by a company owned, controlled, or substantially influenced by a Chinese national; and (b) other cargo handling equipment. References: 90 Fed. Reg. 48320 (Oct. 16, 2025) 90 Fed. Reg. 24856 (June 12, 2025) 90 Fed. Reg. 17114 (Apr. 23, 2025) Exec. Order 14269 (Apr. 9, 2025)"
+    },
+    {
+      "product": "Ship-to-shore gantry cranes: Delayed until Nov. 10, 2026 (effective Nov. 10, 2025)",
+      "status": "tbd",
+      "rate": "HTSUS 8426.19.00 STS cranes that are: (a) Chinese origin; (b) manufactured, assembled, or made using Chinese-origin components; or (c) manufactured anywhere in the world by a company owned, controlled, or substantially influenced by a Chinese national See Note 31(l)(v), Subchapter III, Chapter 99, HTSUS defining owned, controlled, or substantially influenced by a Chinese national Chinese-origin components: The following Chinese-origin components, assemblies, and subassemblies bring non-Chinese-origin STS cranes within the tariffs’ scope: the boom, trolley, spreader, cabin, legs, cable reel, power supply, bogie set and wheels, and any information technology equipment used to operate or control the crane.",
+      "rateNum": null,
+      "scope": "Exemptions: cranes fulfilling a contract for sale executed before April 17, 2025 and entered for consumption or withdrawn from warehouse before April 17, 2027 As part of the USTR’s Section 301 investigation into China’s targeting of the maritime, logistics, and shipbuilding sectors , President Trump directed the USTR to consider tariffs on (a) ship-to-shore cranes manufactured, assembled, or made using Chinese-origin components, or manufactured anywhere in the world by a company owned, controlled, or substantially influenced by a Chinese national; and (b) other cargo handling equipment. References: 90 Fed. Reg. 48320 (Oct. 16, 2025) 90 Fed. Reg. 24856 (June 12, 2025) 90 Fed. Reg. 17114 (Apr. 23, 2025) Exec. Order 14269 (Apr. 9, 2025)",
+      "notes": ""
+    },
+    {
+      "product": "Rubber tire gantry cranes, rail mounted gantry cranes, automatic stacking cranes, reachstackers, straddle carriers, terminal tractors and parts, top handlers/top loaders, and components of these items Threatened (Oct. 15, 2025)",
+      "status": "tbd",
+      "rate": "HTSUS 8701.95.50, 8709.11.00, 8709.19.00, 8709.90.00, 8426.12.00, 8426.19.00, 8426.41.00, 8426.49.00, 8427.20.80, 8429.51.10, 8429.51.50, 8431.20, 8431.41.00, 8431.49.10",
+      "rateNum": null,
+      "scope": "As part of the USTR’s Section 301 investigation into China’s targeting of the maritime, logistics, and shipbuilding sectors , President Trump directed the USTR to consider tariffs on (a) ship-to-shore cranes manufactured, assembled, or made using Chinese-origin components, or manufactured anywhere in the world by a company owned, controlled, or substantially influenced by a Chinese national; and (b) other cargo handling equipment. References: 90 Fed. Reg. 48320 (Oct. 16, 2025) 90 Fed. Reg. 24856 (June 12, 2025) 90 Fed. Reg. 17114 (Apr. 23, 2025) Exec. Order 14269 (Apr. 9, 2025)",
+      "notes": ""
+    },
+    {
+      "product": "Movies",
+      "status": "threatened",
+      "rate": "100%",
+      "rateNum": 100.0,
+      "scope": "All foreign-produced movies",
+      "notes": "President Trump authorized Commerce and the USTR to initiate an investigation to implement these tariffs."
+    },
+    {
+      "product": "Oil and gas",
+      "status": "threatened",
+      "rate": "TBD",
+      "rateNum": null,
+      "scope": "TBD",
+      "notes": ""
+    },
+    {
+      "product": "Personal protective equipment, medical consumables, and medical equipment (including devices)",
+      "status": "threatened",
+      "rate": "TBD",
+      "rateNum": null,
+      "scope": "TBD On September 2, Commerce initiated a Section 232 investigation to determine the effects on national security of imports of personal protective equipment, medical consumables, and medical equipment (including devices). “ Personal protective equipment ” (PPE) refers to PPE used in health care settings. PPE includes, but is not limited to, surgical masks, N95 respirators, gloves, gowns, and related medical parts and components. “ Medical consumables ” refers to single-use or short-term-use items used for patient diagnosis, treatment, and prevention of conditions. Medical consumables include but are not limited to: medical/surgical instruments (e.g., syringes, needles, infusion (IV) pumps, forceps, scalpels); medical/surgical supplies (e.g., intravenous (IV) bags, catheters, tracheostomy tubes, anesthesia equipment, gauze/bandages, sutures, diagnostic and laboratory reagents); and related medical parts and components. Pharmaceuticals, such as prescription drugs, over-the-counter drugs, biologics, and specialty drugs, will not be covered under this investigation as those imports are being examined in a separate Section 232 investigation. “ Medical equipment ” refers broadly as durable equipment, tools, and machines used in healthcare to support patient care. Examples include but are not limited to: carriages and wheelchairs; crutches; and hospital beds. A “ medical device ” is any instrument, apparatus, or machine used in the diagnosis, monitoring, or treatment of medical conditions. Examples include but are not limited to: pacemakers; insulin pumps; coronary stents; heart valves; hearing aids; robotic and non-robotic prosthetics; blood glucose monitors; orthopedic appliances; electromedical apparatus (e.g., computed tomography scanners, magnetic resonance imaging machines); electrosurgical apparatus; x-ray apparatus/other radiation equipment; respiratory machines (e.g., ventilators, respirators, oxygen apparatus); and MRI machines.",
+      "notes": "References: 90 Fed. Reg. 46383 (Sept. 26, 2025)"
+    },
+    {
+      "product": "Pharmaceuticals, pharmaceutical ingredients, and derivative products",
+      "status": "threatened",
+      "rate": "100%",
+      "rateNum": 100.0,
+      "scope": "Announced on Truth Social (Sept. 25, 2025): all branded or patented pharmaceutical products",
+      "notes": "Exemption announced on Truth Social (Sept. 25, 2025): products produced by companies building a manufacturing facility in the United States, including facilities where a company has broken ground On April 1, Commerce initiated a Section 232 investigation to determine the effects on national security of imports of pharmaceuticals, pharmaceutical ingredients, and derivative products. References: 90 Fed. Reg. 15951 (Apr. 16, 2025)"
+    },
+    {
+      "product": "Polysilicon and its derivatives",
+      "status": "threatened",
+      "rate": "TBD",
+      "rateNum": null,
+      "scope": "TBD",
+      "notes": "On July 1, Commerce initiated a Section 232 investigation to determine the effects on national security of imports of polysilicon and its derivatives. References: 90 Fed. Reg. 31955 (July 16, 2025)"
+    },
+    {
+      "product": "Processed critical minerals and derivative products",
+      "status": "threatened",
+      "rate": "TBD",
+      "rateNum": null,
+      "scope": "TBD",
+      "notes": "🔔 The Secretary of Commerce and USTR will negotiate agreements to address the threatened impairment of national security. A status report is due to the President by July 13. “ Processed critical minerals ” are critical minerals that have undergone activities that occur after critical mineral ore is extracted from a mine up through its conversion into a metal, metal powder, or a master alloy. “ Derivative products ” include all goods that incorporate processed critical minerals as inputs, including semi-finished goods (e.g., semiconductor wafers, anodes, cathodes) and final products (e.g., permanent magnets, motors, electric vehicles, batteries, smartphones, microprocessors, radar systems, wind turbines and their components, advanced optical devices). On April 22, Commerce initiated a Section 232 investigation to determine the effects on the national security of imports of processed critical minerals, as well as their derivative products. References: Proclamation (Jan. 14, 2026) 90 Fed. Reg. 17372 (Apr. 25, 2025) Exec. Order 14272 (Apr. 16, 2025)"
+    },
+    {
+      "product": "Robotics and industrial machinery",
+      "status": "threatened",
+      "rate": "TBD",
+      "rateNum": null,
+      "scope": "TBD On September 2, Commerce initiated a Section 232 investigation to determine the effects on national security of imports of robotics and industrial machinery. “ Robotics and industrial machinery ” includes, among other things, robots and programmable, computer-controlled mechanical systems. This equipment spans CNC machining centers, turning and milling machines, grinding and deburring equipment, and industrial stamping and pressing machines. It also includes automatic tool changers, jigs and fixtures, and machine tools for cutting, welding, and handling work pieces. Application-specific specialty metalworking equipment used to treat, form, or cut metal, such as autoclaves and industrial ovens, metal finishing and treatment equipment, EDM machinery, and laser and water-cutting tools and machinery is also included. Unmanned aircraft systems are not covered.",
+      "notes": "References: 90 Fed. Reg. 46382 (Sept. 26, 2025)"
+    },
+    {
+      "product": "Semiconductors, semiconductor manufacturing equipment, and derivative products",
+      "status": "implemented",
+      "rate": "25%",
+      "rateNum": 25.0,
+      "scope": "Logic integrated circuits or articles that contain a logic integrated circuit; are classified in HTSUS 8471.50, 8471.80, 8473.30; and meet certain technical parameters To be included within the definition of semiconductor articles, the imported products must be a logic integrated circuit, or an article that contains a logic integrated circuit, that meets the technical parameters of having: (1) a total processing performance greater than 14,000 and less than 17,500, and a total DRAM bandwidth greater than 4,500 GB/s and less than 5,000 GB/s; or (2) a total processing performance greater than 20,800 and less than 21,100, and total DRAM bandwidth greater than 5,800 GB/s and less than 6,200 GB/s. “Total processing performance” and “total DRAM bandwidth” are defined in Note 39(b), Subchapter III, Chapter 99, HTSUS.",
+      "notes": "See stacking explanation below Exemptions: (a) Use in U.S. data centers (b) For repairs or replacements performed in the United States (c) For research and development in the United States involving covered chips (d) Use by startups in the United States (e) Use in non-data center consumer electronics applications in the United States (f) Use in non-data center civil industrial applications in the United States (g) Use in U.S. public sector applications Commerce is required to continue monitoring imports of semiconductors; semiconductor manufacturing equipment; and derivative products, including downstream products that contain semiconductors. By July 1, 2026, Commerce must provide the President with an update on the market for semiconductors used in U.S. data centers, so the President can determine whether tariff modifications are appropriate. For the purposes of the exemptions: “ U.S. data center ” refers to a facility that requires greater than 100 MW of new load dedicated to AI inference, training, simulation, or synthetic data generation.” “ Research and development ” means any activity that is (a) a systematic, intensive study directed toward greater knowledge or understanding of the subject studied; (b) a systematic study directed specifically toward applying new knowledge to meet a recognized need; or (c) a systematic application of knowledge toward the production of useful materials, devices, services or methods, and includes design, development and improvement of prototypes and new processes to meet specific requirements. “ Startup ” means an “emerging growth company,” as defined in 15 U.S.C. 77b(a)(19). References: Proclamation (Jan. 14, 2026) 90 Fed. Reg. 15950 (Apr. 16, 2025)"
+    },
+    {
+      "product": "Steel articles and derivative products",
+      "status": "implemented",
+      "rate": "UK-origin products: 25% All other countries: 50%",
+      "rateNum": 50.0,
+      "scope": "See Note 16, Subchapter III, Chapter 99, HTSUS Applies by HTSUS classification Expanded Includes additional derivative products (effective Aug. 18, 2025)",
+      "notes": "See stacking explanation below Calculation: (a) Steel tariff applies to the known value of the steel content (b) Remaining value is subject to the applicable reciprocal tariff (or “fentanyl” tariff for Canadian- and Mexican-origin goods) Exemptions: (a) UK aerospace exemption (effective June 23, 2025) (b) EU aerospace exemption (effective Sept. 1, 2025) (c) Japan aerospace exemption (effective Sept. 16, 2025) UK aerospace exemption: applies to products that fall under the WTO Agreement on Trade in Civil Aircraft On or after July 9, 2025, the Secretary of Commerce may adjust the tariff rate for UK-origin products or implement import quotas, consistent with the U.S.-UK Economic Prosperity Deal announced on May 8, 2025. EU aerospace exemption: applicable products listed by HTSUS classification that satisfy the scope limitations in U.S. Note 2(v)(xviii), Subchapter III, Chapter 99, HTSUS Japan aerospace exemption: applies to products that fall under the WTO Agreement on Trade in Civil Aircraft (except unmanned aircraft) Stacking (Mar. 4 – June 4, 2025): goods that are also subject to (a) the Section 232 tariffs on automobiles or automobile parts or (b) the tariffs on Canadian- and Mexican-origin goods are not subject to the Section 232 tariffs on steel and derivative products All country exclusions from the existing Section 232 tariffs on aluminum and derivative aluminum articles are revoked. Individual exclusions and General Authorized Exclusions are also being revoked. Individual exclusions and General Authorized Exclusions are also being revoked. References: 90 Fed. Reg. 43136 (Sept. 25, 2025) Exec. Order 14345 (Sept. 4, 2025) Exec. Order 14309 (June 16, 2025) 90 Fed. Reg. 25208 (June 16, 2025) Proclamation 10947 (June 3, 2025) Exec. Order 14289 (Apr. 29, 2025) Proclamation 10896 (Feb. 10, 2025)"
+    },
+    {
+      "product": "Trucks and truck parts",
+      "status": "implemented",
+      "rate": "25%",
+      "rateNum": 25.0,
+      "scope": "See Note 38(b), Subchapter III, Chapter 99, HTSUS Applies by HTSUS classification",
+      "notes": "See stacking explanation below Exemption: Vehicles manufactured 25+ years ago Potential reduction: USMCA (if approved by Commerce on an importer-by-importer basis) Potential reduction: Importers of vehicles that qualify for preferential treatment under the USMCA can submit documentations to the Secretary of Commerce identifying the amount of U.S. content in each model imported into the United States. “U.S. content” means the value of the vehicle attributable to U.S.-based activity supporting domestic production. If approved, the tariff will only apply to the value of the vehicle’s non-U.S. content. References: Proclamation (Oct. 17, 2025) 90 Fed. Reg. 17371 (Apr. 25, 2025)"
+    },
+    {
+      "product": "Buses: Implemented (effective Nov. 1, 2025)",
+      "status": "tbd",
+      "rate": "See Note 38(c), Subchapter III, Chapter 99, HTSUS Applies by HTSUS classification",
+      "rateNum": null,
+      "scope": "See stacking explanation below Exemption: Vehicles manufactured 25+ years ago References: Proclamation (Oct. 17, 2025) 90 Fed. Reg. 17371 (Apr. 25, 2025)",
+      "notes": ""
+    },
+    {
+      "product": "Medium- and heavy-duty vehicle parts: Implemented (effective Nov. 1, 2025)",
+      "status": "tbd",
+      "rate": "See Note 38(i), Subchapter III, Chapter 99, HTSUS Applies by HTSUS classification",
+      "rateNum": null,
+      "scope": "See stacking explanation below Exemption: USMCA Potential reduction: Domestic manufacturer’s import adjustment Exemption: With the exception of knock-down kits or equivalent parts compilations (as determined by CBP), parts that qualify for preferential treatment under the USMCA will be exempt until Commerce and CBP establish a process for applying the tariff to only the value of the parts’ non-U.S. content. Potential reduction: Medium- and heavy-duty vehicle (MHDV) manufacturers can apply for an import adjustment offset equal to 3.75% of the aggregate value of all MHDVs they assemble in the United States from November 1, 2025 through October 31, 2030. The import adjustment will be applied to parts accounting for 15% of the MHDV’s value. To be included in the import adjustment calculation, the MHDV must undergo final assembly in the United States. Drawback eligibility: manufacturing drawback only (effective Oct. 17, 2025) References: Proclamation (Oct. 17, 2025) 90 Fed. Reg. 17371 (Apr. 25, 2025)",
+      "notes": ""
+    },
+    {
+      "product": "Unmanned aircraft systems and their parts and components",
+      "status": "threatened",
+      "rate": "TBD",
+      "rateNum": null,
+      "scope": "TBD",
+      "notes": "On July 14, Commerce initiated a Section 232 investigation to determine the effects on the national security of imports of unmanned aircraft systems (UAS) and their parts and components. References: 90 Fed. Reg. 31985 (July 16, 2025)"
+    },
+    {
+      "product": "Wind turbines and their parts and components",
+      "status": "threatened",
+      "rate": "TBD",
+      "rateNum": null,
+      "scope": "TBD",
+      "notes": "On August 13, Commerce initiated a Section 232 investigation to determine the effects on the national security of imports of wind turbines and their parts and components. References: 90 Fed. Reg. 41380 (Aug. 25, 2025)"
+    }
+  ],
+  "context": [
+    {
+      "heading": "Section 122 tariff exemptions",
+      "items": [
+        "The following foreign-origin items are exempt from the Section 122 tariffs:",
+        "Goods subject to the saving clause . The savings clause covers goods loaded onto a vessel at the port of loading and in transit on the final mode of transit before entry into the United States before 12:01 a.m. (ET) on February 24, 2026 and entered for consumption, or withdrawn from warehouse for consumption, before 12:01 a.m. (ET) on February 28.",
+        "Goods subject to the Section 232 tariffs on articles and derivatives of aluminum and steel, automobiles, automobile parts, buses, medium- and heavy-duty vehicles (MHDVs), MHDV parts, lumber, semi-finished copper and intensive copper derivative products, and semiconductors (or the portion of the goods’ value subject to Section 232 tariffs).",
+        "Certain articles of civil aircraft as described in U.S. Note 2(aa)(iv) to Subchapter III of Chapter 99 of the HTSUS.",
+        "Goods qualifying for duty-free treatment under the USMCA .",
+        "Article of textiles or apparel that qualify for duty-free treatment under CAFTA-DR .",
+        "The additional articles listed in Annex II to the February 20, 2026 Proclamation , including certain agricultural products, copper, pharmaceuticals, semiconductors, lumber articles, certain critical minerals, and energy and energy products. Over 90% of the goods on Annex II mirror those previously exempt from the reciprocal tariffs.",
+        "Articles that are donations by persons subject to the jurisdiction of the United States, such as food, clothing and medicine, intended to be used to relieve human suffering.",
+        "Information materials ."
+      ]
+    },
+    {
+      "heading": "Tariff stacking",
+      "items": [
+        "The following duties and tariffs always stack on top of any other applicable tariffs:",
+        "Any applicable antidumping or countervailing duties.",
+        "Any applicable Section 301 tariffs on Chinese-origin goods.",
+        "The product-specific Section 232 tariffs are subject to the following stacking rules:",
+        "The automobile, automobile parts, bus, MHDVs, and MHDV parts tariffs do not stack on top of (a) any other Section 232 tariffs or (b) any applicable Section 122 tariffs.",
+        "The aluminum and steel tariffs can stack on top of each other if the product is subject to both.",
+        "The aluminum, steel, copper, lumber, and semiconductor tariffs do not stack on top of any applicable Section 122 tariffs."
+      ]
+    },
+    {
+      "heading": "Updates and relevant publications",
+      "items": [
+        "Mar. 5, 2026: Podcast: The SCOTUS IEEPA ruling—Europe’s response and what it means for business",
+        "Feb. 24, 2026: Podcast: What comes next? Trump tariffs after the SCOTUS decision",
+        "Feb. 20, 2026: SCOTUS strikes down IEEPA tariffs; leaves refund question open",
+        "Dec. 6, 2025: Tariff refunds: What U.S. importers should know as the Supreme Court weighs the tariffs’ legality",
+        "Oct. 27, 2025: The USTR released a Federal Register notice announcing the initiation of a Section 301 investigation into China’s apparent failure to comply with the 2020 Economic and Trade Agreement Between the Government of the United States of America and the Government of the People’s Republic of China (Phase One Agreement). The docket for written comments will open on October 31, and comments must be submitted by December 1. The Section 301 Committee will convene a public hearing on December 16.",
+        "Oct. 15, 2025: The USTR released a Federal Register notice imposing 100% ad valorem tariffs on ship-to-shore (STS) cranes and certain Chinese-origin maritime cargo handling equipment. The USTR also proposed tariffs on additional Chinese-origin maritime cargo handling equipment. Public comments must be submitted by November 10.",
+        "Sept. 24, 2025: Commerce released Federal Register notices about newly initiated Section 232 investigations into (1) personal protective equipment, medical consumables, and medical equipment (including devices) and (2) robotics and industrial machinery . Public comments must be submitted by October 17.",
+        "Sept. 17, 2025: Commerce published an an interim final rule establishing the process for including additional automobile parts for passenger vehicles and light trucks within the scope of the Section 232 tariffs. Under the interim final rule, the International Trade Administration (ITA) will allow inclusion requests to be submitted by domestic producers of automobiles or automobile parts, or industry associations representing those producers, during four windows each year: at the beginning of January, April, July, and October. After the ITA’s review, non-confidential versions of the requests will be published for a 14-day comment period. The ITA will generate a decision memo on each request within 60 days of submission. A Federal Register notice will be issued shortly after the decision memo identifying the new automobile parts subject to the Section 232 tariffs. The October 2025 inclusion window will open on October 1.",
+        "Sept. 15, 2025: Commerce released a Federal Register notice announcing the opening of the inclusions window for the Section 232 steel and aluminum tariff inclusions process. The window will be open from September 15 to September 29. After the submission window closes, the submission window, accepted inclusion requests will be posted for a two-week public comment period on Docket ID BIS-2025-0023 on Regulations.gov.",
+        "Sept. 5, 2025: President Trump signed an executive order modifying Annex II to Executive Order 14257. Annex III to the executive order also identifies 1,908 HTSUS subheadings that are potentially eligible to be exempted from the reciprocal tariffs for each trading partner that concludes a trade agreement with the United States. Trade agreement-related exemptions will be determined by the Secretary of Commerce and U.S. Trade Representative.",
+        "Sept. 4, 2025: Tariff enforcement webinar: navigating DOJ’s new priorities and increased FCA risk",
+        "Aug. 29, 2025: The USTR released a Federal Register notice extending 178 Section 301 exclusions that were scheduled to expire on September 1. The exclusions will now remain valid through November 29, 2025. The extensions are available for any product that meets the description in the product exclusion.",
+        "Aug. 21, 2025: Commerce released a Federal Register notice about a newly initiated Section 232 investigation into wind turbines and their parts and components . Public comments must be submitted by September 9.",
+        "Aug. 15, 2025: Commerce released a Federal Register notice expanding the list of aluminum and steel derivative products subject to Section 232 tariffs . Effective August 18, 407 additional HTSUS codes will be considered aluminum and steel derivative products subject the Section 232 tariffs. The tariff will apply to the value of the aluminum or steel content in the derivative product. The non-aluminum or non-steel content will remain subject to any other applicable tariffs, including the reciprocal tariffs.",
+        "July 30, 2025: President Trump signed an executive order suspending the de minimis exemption, effective August 29, 2025. Shipments that are not sent through the international postal network will be subject to all applicable duties, tariffs, taxes fees, and exactions. Shipments sent through the international postal network will be subject to duties and tariffs based on the transportation carrier’s chosen methodology, which will either be: (a) duties and tariffs equal to the effective, applicable International Emergency Economic Powers Act (IEEPA) tariff rate assessed on the value of each package; or (b) a per package rate that varies depending on the effective, applicable IEEPA tariff rate. Under the per package methodology, the rates are: (1) $80 for countries with an effective IEEPA tariff rate less than 16%; (2) $160 for countries with a 16-25% effective IEEPA tariff rate; or (3) $200 for countries with an effective IEEPA tariff rate above 25%. “Effective IEEPA tariff rate” means the total “fentanyl” and reciprocal tariff rate that applies based on the product’s country of origin (after applying the “stacking” exceptions in Executive Order 14289, as amended). Transportation carriers may only update their methodology monthly. The exception for postal shipments may be revoked once the Secretary of Commerce informs the President that adequate systems are in place to fully and expeditiously process and collect duties applicable on all postal shipments.",
+        "July 30, 2025: President Trump issued a proclamation imposing Section 232 tariffs on certain semi-finished copper products and intensive copper derivative products, effective August 1. By October 28, the Secretary of Commerce will establish a process for including additional derivative copper articles within the scope of the Section 232 tariffs imposed under the proclamation.",
+        "July 17, 2025: The USTR announced a Section 301 investigation into Brazil’s acts, policies, and practices related to digital trade and electronic payment services; unfair, preferential tariffs; anti-corruption enforcement; intellectual property protection; ethanol market access; and illegal deforestation. A public hearing is scheduled for September 3, 2025. Written comments and requests to appear at the hearing are due on August 18.",
+        "July 14, 2025: Commerce released a Federal Register notice about newly initiated Section 232 investigations into (1) polysilicon and its derivatives and (2) unmanned aircraft systems and their parts and components . Public comments must be submitted by August 6, 2025.",
+        "July 14, 2025: DOJ dedicates significant resources to priority of investigating and prosecuting tariff evasion",
+        "June 27, 2025: In response to Canada’s decision to proceed with a 3% digital services tax (DST) on technology companies, President Trump terminated the United States’ trade discussions with Canada. The United States is expected to announce a new, Canada-specific tariff rate within seven days. It is not yet clear whether that tariff will be in addition to the “fentanyl” tariffs already in place for Canadian-origin goods that do not qualify for duty-free treatment under the USMCA.",
+        "June 12, 2025: Commerce released a Federal Register notice expanding the list of steel derivative products subject to Section 232 tariffs . The new products added to the steel derivatives list are: (1) combined refrigerator-freezers (8418.10.00 HTSUS); (2) small and large dryers (84521.21.00 and 8451.29.00); (3) washing machines (8450.11.00 and 8450.20.00 HTSUS); (4) dishwashers (8422.11.00 HTSUS); (5) chest and upright freezers (8418.30.00 and 8418.40.00 HTSUS); (6) cooking stoves, ranges, and ovens (8516.60.40 HTSUS); (7) food waste disposals (8509.80.20 HTSUS); and (8) welded wire rack (9403.99.9020 HTSUS).",
+        "June 3, 2025: President Trump issued a proclamation adjusting the Section 232 steel and aluminum tariff rates and amending Executive Order 14289 . In addition to increasing the tariff rate, the proclamation imposes: (1) the increased tariff rate on imports of goods listed in the yet-to-be-published Annex II that were previously admitted to a free trade zone under privileged foreign status when entered for consumption; (2) only the value of the aluminum content of articles in Chapter 76 or the steel content of articles in Chapter 73 are subject to the increased tariff rate; and (3) the reciprocal tariffs on the non-aluminum, non-steel content of all aluminum and steel articles and derivates. Under the amended Executive Order 14289, goods subject the Section 232 tariffs on aluminum and steel articles or derivative products are not also subject to the tariffs on Canadian- or Mexican-origin goods. This exception was previously flipped.",
+        "June 3, 2025: The U.S. District Court for the District of Columbia stayed its preliminary injunction in Learning Resources v. Trump pending the outcome of the government’s appeal.",
+        "May 29, 2025: The U.S. District Court for the District of Columbia issued a preliminary injunction in Learning Resources v. Trump , concluding that the International Emergency Economic Powers Act does not enable the President to impose the “fentanyl” and reciprocal tariffs. The preliminary injunction only applied to the named plaintiffs. The government filed notice of its appeal and asked the court to issue a stay.",
+        "May 29, 2025: On May 29, the Court of Appeals for the Federal Circuit issued an immediate administrative stay of the CIT’s judgment and injunction. The plaintiffs-appellees have until June 5 to respond to the government’s motion for a stay. The government will have until June 9 to file a reply brief. The Federal Circuit will then consider the motion to stay the CIT’s judgment and injunction pending the outcome of the appeal. In the meantime, the “fentanyl” and reciprocal tariffs remain in effect.",
+        "May 29, 2025: Federal court permanent enjoins “fentanyl” and reciprocal tariffs; Trump requests stay",
+        "May 28, 2025: The Court of International Trade declared the executive orders implementing (1) the “fentanyl” tariffs on Canada, China, and Mexico and (2) the reciprocal tariffs invalid as contrary to law. The court permanently enjoined each of the relevant executive orders.",
+        "May 15, 2025: CBP released the HTSUS modifications to implement Executive Order 14289 (Addressing Certain Tariffs on Imported Articles). The executive order is retroactive for covered goods entered for consumption, or withdrawn for warehouse for consumption, on or after March 4. Importers may request refunds by filing post summary corrections or protests (as applicable).",
+        "May 13, 2025: Commerce released a Federal Register notice about a newly initiated Section 232 investigation into imports commercial aircraft and jet engines and parts of commercial aircraft and jet engines . Public comments must be submitted by June 3, 2025.",
+        "May 12, 2025: President Trump signed an executive order reducing the duties imposed on imports of Chinese-origin goods that would otherwise qualify for the de minimis exemption, effective May 14. Goods sent through the international postal network will be subject to duties of (a) 54% ad valorem or (b) $100 per item. The per item dollar amount will no longer increase to $200 on June 1.",
+        "May 8, 2025: The EU launched a public consultation on potential countermeasures to the U.S. automotive, reciprocal, and aluminum tariffs. These measures may be implemented if the EU’s negotiations with the United States are unsuccessful. Products under review for additional EU import duties include aircraft, automobiles, medical devices, IT equipment, and industrial machinery—covering €95 billion in U.S. originating imports. On the export side, scrap metals and chemicals are being considered for restrictions—covering €4.5 billion in EU exports. Comments are due by June 10.",
+        "May 1, 2025: CBP announced that by May 16, it will publish tariff refund procedures and HTSUS modifications to implement Executive Order 14289 (Addressing Certain Tariffs on Imported Articles).",
+        "Apr. 30, 2025: Commerce released an interim final rule establishing the process for requesting that additional derivative aluminum and steel articles be subject to the Section 232 tariffs. The interim final rule is effective April 30, and public comments are due by June 14. Under the interim final rule, the Bureau of Industry and Security (BIS) will allow inclusion requests to be submitted during three windows each year: May, September, and January. After BIS’s review, non-confidential versions of the requests will be published for a 14-day comment period. BIS will generate a decision memo on each request within 60 days of submission. A Federal Register notice will be issued shortly after the decision memo identifying new derivative products subject to the Section 232 tariffs.",
+        "Apr. 29, 2025: President Trump signed an executive order to prevent the cumulative effect of certain tariffs (also called “stacking”). Thus, (1) goods subject to the Section 232 tariffs on automobiles or automobile parts are not also subject to the tariffs on Canadian- or Mexican-origin goods or any applicable Section 232 tariffs on aluminum and steel articles or derivative products; and (2) goods subject to the tariffs on Canadian- or Mexican-origin goods are not also subject to any applicable Section 232 tariffs on aluminum and steel articles or derivative products. These changes apply retroactively to any entries on or after March 4. CBP will process refunds pursuant to its standard procedures.",
+        "Apr. 24, 2025: CBP released the HTSUS modifications that will implement the elimination of the de minimis exemption for Chinese origin products, effective May 2.",
+        "Apr. 23, 2025: Commerce released two Federal Register notices about newly initiated Section 232 investigations into (1) critical minerals and derivative products and (2) medium- and heavy-duty trucks and truck parts, as well as derivative products . Public comments are due within 21 days of the notices being published in the Federal Register , which is currently scheduled for April 25.",
+        "Apr. 18, 2025: USTR imposes fees and restrictions on certain maritime transport services",
+        "Apr. 14, 2025: Commerce released two Federal Register notices about newly initiated Section 232 investigations into imports of (1) pharmaceuticals, pharmaceutical ingredients, and derivative products and (2) semiconductors, semiconductor manufacturing equipment, and derivative products . The pharmaceuticals investigation will cover finished generic and non-generic drug products, medical countermeasures, critical inputs such as active pharmaceutical ingredients and key starting materials, and derivative products of those items. The semiconductors investigation will cover semiconductor substrates and bare wafers, legacy chips, leading-edge chips, microelectronics, and SME components, as well as downstream products that contain semiconductors (e.g., electronics). Public comments are due within 21 days of the notices being published in the Federal Register , which is currently scheduled for April 16.",
+        "Apr. 11, 2025: President Trump issued a presidential memorandum to expand the reciprocal tariff exceptions to include the following HTSUS headings and subheadings:  8471, 8473.30, 8486, 8517.13.00, 8517.62.00, 8523.51.00, 8524, 8528.52.00, 8541.10.00, 8541.21.00, 8541.29.00, 8541.30.00, 8541.49.10, 8541.49.70, 8541.49.80, 8541.49.95, 8541.51.00, 8541.59.00, 8541.90.00, and 8542. CBP will issue refunds for any tariffs collected on imports classified under these headings or subheadings since April 5.",
+        "Apr. 9, 2025: President Trump signed an executive order increasing the tariffs that will be imposed on imports of Chinese-origin goods that would otherwise qualify for the de minimis exemption, effective May 2. Goods sent through the international postal network will be subject to duties of (a) 120% ad valorem or (b) $100 per item. The per item dollar amount will increase to $200, effective at 12:01 a.m. (ET) on June 1.",
+        "Apr. 8, 2025: President Trump signed an executive order increasing the tariffs that will be imposed on imports of Chinese-origin goods that would otherwise qualify for the de minimis exemption, effective May 2. Goods sent through the international postal network will be subject to duties of (a) 90% ad valorem or (b) $75 per item. The per item dollar amount will increase to $150, effective at 12:01 a.m. (ET) on June 1.",
+        "Apr. 8, 2025: CBP released guidance indicating that the reciprocal tariff savings clause for imports otherwise subject to country-specific tariff rates will also remain in effect until 12:00 a.m. (ET) on May 27.",
+        "Apr. 4, 2025: CBP released guidance indicating that the reciprocal tariff savings clause for imports on or after 12:01 a.m. (ET) on April 5 will remain in effect until 12:00 a.m. (ET) on May 27. The savings clause applies to goods loaded onto a vessel at the port of loading and in transit on the final mode of transport before entry into the United States before 12:01 a.m. (ET) on April 5.",
+        "Apr. 2, 2025: U.S. imposes 10% baseline tariffs; higher reciprocal tariffs for targeted countries (updated Apr. 3, 2025)",
+        "Mar. 28, 2025: What impact will President Trump’s reciprocal tariffs have on the United Kingdom?",
+        "Mar. 27, 2025: In response to the new U.S. tariffs on automobiles and automobile parts, the Chair of the International Trade Committee in the European Parliament suggested placing tariffs on U.S. digital services.",
+        "Mar. 25: 2025: Tariff mitigation through alternative sourcing: Navigating customs country of origin compliance risks",
+        "Mar. 24, 2025: President Trump signed an executive order granting the Secretary of State discretion to impose a 25% tariff on imports of goods from any country that directly or indirectly purchases Venezuelan oil, effective April 2, 2025. Unless terminated earlier, the tariffs will expire on year after the last date on which the country imported Venezuelan oil. “Venezuelan oil” means crude oil or petroleum products extracted, refined, or exported from Venezuela, regardless of the nationality of the entity involved in the production or sale of such crude oil or petroleum products.",
+        "Mar. 11, 2025: The Commerce Department initiated Section 232 investigations into imports of copper and timber and lumber . The deadline to submit comments is April 1, 2025.",
+        "Mar. 3, 2025: The following Federal Register notices implementing the following tariffs were made available for public inspection: (1) adjusted Section 232 tariffs on steel imports ; (2) adjusted Section 232 tariffs on aluminum imports ; (3) tariffs on imports of Canadian-origin goods ; and (4) tariffs on imports of Mexican-origin goods .",
+        "Feb. 25, 2025: The USTR is seeking public comments , on a country-by-country basis, about any unfair trade practice or non-reciprocal trade arrangement. The deadline to submit comments is March 11, 2025.",
+        "Feb. 17, 2025: The EU released a Q&A document on the United States’ reciprocal tariff policy. The document does not outline specific countermeasures the EU intends to implement but does indicate that the EU remains open to negotiations with the U.S. on balanced trade.",
+        "Feb. 11, 2025: Trump adjusts steel and aluminum tariff; directs Customs to increase enforcement",
+        "Feb. 4, 2025: U.S. and China in tariff tit for tat; Canadian and Mexican tariffs delayed",
+        "Feb. 3, 2025: U.S. imposes tariffs on Canada, China, and Mexico; retaliation promised",
+        "Jan. 28, 2025: Key investigations and enforcement trends: Top takeaways for 2025",
+        "Nov. 6, 2024: International trade in a second Trump presidency",
+        "Scope is based on products’ country of origin unless noted. ↩︎",
+        "The BRICS members are Brazil, China, Egypt, Ethiopia, India, Indonesia, Iran, the United Arab Emirates, Russia, and South Africa. ↩︎",
+        "“Column 1 Duty Rate” means the ad valorem (or ad valorem equivalent) rate of duty under “Column 1 – General” of the HTSUS. ↩︎"
+      ]
+    }
+  ]
 }
