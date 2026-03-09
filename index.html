@@ -451,8 +451,35 @@
             max-width: 320px;
             font-size: 12px;
             color: var(--muted);
-            line-height: 1.5
+            line-height: 1.5;
+            position: relative;
         }
+
+        .read-more-btn {
+            display: inline-block;
+            margin-top: 4px;
+            color: var(--blue);
+            background: none;
+            border: none;
+            padding: 0;
+            font-size: 11px;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+
+        .notes-content.expanded .trunc-text {
+            display: none;
+        }
+
+        .notes-content.expanded .full-text {
+            display: inline;
+        }
+
+        .notes-content:not(.expanded) .full-text {
+            display: none;
+        }
+
 
         .tabs {
             display: flex;
@@ -885,7 +912,18 @@
         }
 
         function renderRow(fields) {
-            return '<tr>' + fields.map((f, i) => `<td${i === 0 ? ' class="td-name"' : i === 4 || i === 3 ? ' class="notes-cell"' : ''}>${f}</td>`).join('') + '</tr>';
+            return '<tr>' + fields.map((f, i) => {
+                let content = f;
+                if ((i === 3 || i === 4) && typeof f === 'string' && f.length > 120) {
+                    const trunc = f.substring(0, 115) + '...';
+                    content = `<div class="notes-content">
+                        <span class="trunc-text">${trunc}</span>
+                        <span class="full-text">${f}</span>
+                        <br><button class="read-more-btn" onclick="this.parentElement.classList.toggle('expanded'); this.textContent = this.parentElement.classList.contains('expanded') ? 'Ver menos' : 'Ver más...'">Ver más...</button>
+                    </div>`;
+                }
+                return `<td${i === 0 ? ' class="td-name"' : i === 4 || i === 3 ? ' class="notes-cell"' : ''}>${content}</td>`;
+            }).join('') + '</tr>';
         }
 
         function statusBadge(s) {
@@ -912,7 +950,7 @@
             const maxP = productData.reduce((a, b) => (b.rateNum || 0) > (a.rateNum || 0) ? b : a, { rateNum: 0 });
             // Show only the numeric max to keep KPI clean
             document.getElementById('kpi-max-product').textContent = maxP.rateNum ? maxP.rateNum + '%' : (maxP.rate || '—');
-            document.getElementById('kpi-max-product-sub').textContent = (maxP.product || '').substring(0, 30);
+            document.getElementById('kpi-max-product-sub').textContent = (maxP.product || '').substring(0, 45) + ((maxP.product || '').length > 45 ? '...' : '');
 
             document.getElementById('kpi-impl').textContent = allData.filter(d => d.status === 'implemented').length;
             document.getElementById('kpi-threat').textContent = allData.filter(d => d.status === 'threatened').length;
@@ -928,7 +966,10 @@
             });
             const tbody = document.getElementById('tbody-countries');
             tbody.innerHTML = rows.length
-                ? rows.map(d => renderRow([d.country, statusBadge(d.status), rateBadge(d.rate), d.scope || '—', d.countermeasures || '—'])).join('')
+                ? rows.map(d => {
+                    const cName = d.country.toLowerCase() === 'all' ? 'Todos los países' : d.country;
+                    return renderRow([cName, statusBadge(d.status), rateBadge(d.rate), d.scope || '—', d.countermeasures || '—']);
+                }).join('')
                 : '<tr><td colspan="5" style="text-align:center;padding:2rem;color:var(--muted)">Sin resultados</td></tr>';
         }
 
@@ -983,6 +1024,7 @@
                 { name: 'España', lat: 40, lng: -4, rate: 'TBD', status: 'threatened', color: '#F39C12', r: 9 },
                 { name: 'Nicaragua', lat: 13, lng: -85, rate: '0-15%', status: 'implemented', color: '#27AE60', r: 8 },
                 { name: 'Resto del Mundo (Sec. 122)', lat: 20, lng: 30, rate: '10%', status: 'implemented', color: '#4A90D9', r: 12 },
+                { name: 'Argentina', lat: -34, lng: -64, rate: '10%', status: 'implemented', color: '#4A90D9', r: 8 }
             ];
 
             markerDefs.forEach(m => {
