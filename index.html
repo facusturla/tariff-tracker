@@ -1040,12 +1040,18 @@
             L.marker([-34, -64], { icon: argIcon })
                 .bindTooltip('<strong>🇦🇷 Argentina</strong><br/>10% base (Sec. 122)<br/>Sin arancel recíproco confirmado', { sticky: true })
                 .addTo(map);
+
+            return map;
         }
 
         // ── Boot ──────────────────────────────────────────────────────────────────────
         function render() { computeKPIs(); renderCountries(); renderProducts(); }
-        initMap();
+        const mapInstance = initMap();
         loadData();
+
+        // Fix Leaflet rendering inside flex container
+        window.addEventListener('load', () => setTimeout(() => mapInstance.invalidateSize(), 200));
+        window.addEventListener('resize', () => mapInstance.invalidateSize());
     </script>
 </body>
 
