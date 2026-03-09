@@ -592,11 +592,9 @@
         <div class="header-inner">
             <div style="display:flex;align-items:center">
                 <div class="logo-badge">PromArgentina</div>
-                <div class="logo-text">Agencia Argentina de Promoción de Inversiones y Comercio Internacional</div>
             </div>
             <div class="header-right">
                 <strong>Trump 2.0 Tariff Tracker</strong>
-                <span id="header-date">Cargando datos...</span>
             </div>
         </div>
         <div class="accent-bar"></div>
@@ -797,8 +795,7 @@
     </main>
 
     <footer>
-        Elaborado por <strong>PromArgentina</strong> — Agencia Argentina de Promoción de Inversiones y Comercio
-        Internacional |
+        Elaborado por <strong>PromArgentina</strong> |
         Datos: <a id="footer-link" href="https://www.tradecomplianceresourcehub.com" target="_blank">Trade Compliance
             Resource Hub — Reed Smith</a> |
         <a href="https://github.com/facusturla/tariff-tracker" target="_blank">Ver en GitHub</a>
@@ -839,11 +836,6 @@
                 countryData = data.countries || [];
                 productData = data.products || [];
                 // Update meta
-                if (data.article_date) {
-                    const [y, m, d] = data.article_date.split('-').map(Number);
-                    const dateStr = new Date(y, m - 1, d).toLocaleDateString('es-AR', { day: 'numeric', month: 'long', year: 'numeric' });
-                    document.getElementById('header-date').textContent = 'Fuente: ' + dateStr;
-                }
                 if (data.scraped_at) {
                     const d = new Date(data.scraped_at);
                     document.getElementById('scraped-at').textContent = '🔄 Actualizado: ' + d.toLocaleDateString('es-AR', { day: 'numeric', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' });
