@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-03-09T08:32:16.882173+00:00",
+  "scraped_at": "2026-03-10T08:28:59.717452+00:00",
   "article_date": "2026-03-08",
   "source_url": "https://www.tradecomplianceresourcehub.com/2026/03/08/trump-2-0-tariff-tracker/",
   "countries": [
@@ -374,7 +374,8 @@
       "items": [
         "On March 4, 2026, Judge Eaton of the Court of International Trade concluded that “[a]ll importers of record whose entries were subject to IEEPA [tariffs] are entitled to the benefit of the Learning Resources decision.” He also ordered U.S. Customs and Border Protection (CBP) to begin the refund process.",
         "Two days later, the Government filed a declaration from CBP’s Executive Director, Trade Programs Directorate, indicating that CBP is not able to comply with the March 4 order.",
-        "Instead, CBP proposed new customs system (ACE) functionality to streamline and consolidated refunds and interests payments on an importer basis. CBP anticipates that process involving the following steps:",
+        "CBP’s proposed refund process",
+        "Instead, CBP proposed new customs system (ACE) functionality to streamline and consolidate refunds and interests payments on an importer basis. CBP anticipates that process involving the following steps:",
         "The importer files a declaration in ACE that includes a list of entries on which IEEPA tariffs were paid.",
         "ACE validates the data and calculates the refund amount (with interest).",
         "CBP verifies the declaration and processes the refund as soon as practicable.",
@@ -382,7 +383,7 @@
         "ACE automatically aggregates the refunds with interest by importer and liquidation date.",
         "CBP certifies the refunds.",
         "The Treasury Department issues the refunds electronically.",
-        "CBP is working to deploy the new functionality over the next 45 days. CBP also anticipates issuing guidance on how to file a refund declaration in the new system.",
+        "CBP anticipates working to deploy the new functionality over the next 45 days. CBP also expects to issue guidance on how to file a refund declaration in the new system.",
         "Mar. 6, 2026: Judge Eaton suspended his amended order to the extent that it directs CBP’s immediate compliance. Judge Eaton also ordered the Government to file a status update on March 12.",
         "Mar. 5, 2026: Judge Eaton amended his original order."
       ]
