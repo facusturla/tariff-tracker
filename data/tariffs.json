@@ -1,14 +1,14 @@
 {
-  "scraped_at": "2026-03-12T08:30:25.157576+00:00",
-  "article_date": "2026-03-08",
-  "source_url": "https://www.tradecomplianceresourcehub.com/2026/03/08/trump-2-0-tariff-tracker/",
+  "scraped_at": "2026-03-13T08:27:47.789055+00:00",
+  "article_date": "2026-03-12",
+  "source_url": "https://www.tradecomplianceresourcehub.com/2026/03/12/trump-2-0-tariff-tracker/",
   "countries": [
     {
       "country": "All",
       "status": "implemented",
       "rate": "10%",
       "rateNum": 10.0,
-      "scope": "See exemptions below 🔔 Rate increase to 15%: Threatened (Feb. 21, 2026) Ends at 12:01 a.m. (ET) on July 24, 2026 De minimis exemption suspended (effective Aug. 29, 2025; continued Feb. 20, 2026): With the exception of shipments sent through the international postal network, which are subject special duty rates, shipments that would have otherwise qualified for the de minimis exemption are subject to all applicable duties and tariffs. References: Proc. 11012 (Feb. 20, 2026)",
+      "scope": "See exemptions below Rate increase to 15%: Threatened (Feb. 21, 2026) Ends at 12:01 a.m. (ET) on July 24, 2026 De minimis exemption suspended (effective Aug. 29, 2025; continued Feb. 20, 2026): With the exception of shipments sent through the international postal network, which are subject special duty rates, shipments that would have otherwise qualified for the de minimis exemption are subject to all applicable duties and tariffs. References: Proc. 11012 (Feb. 20, 2026)",
       "countermeasures": "—"
     },
     {
@@ -36,6 +36,22 @@
       "countermeasures": "—"
     },
     {
+      "country": "Bangladesh (Sec. 301)",
+      "status": "threatened",
+      "rate": "TBD",
+      "rateNum": null,
+      "scope": "The USTR is investigating Bangladesh’s acts, policies, and practice relating to structural excess capacity and production in certain sectors, including the textiles, leather products, and cement sectors. References: Fed. Reg. notice (released Mar. 11, 2026)",
+      "countermeasures": "—"
+    },
+    {
+      "country": "Cambodia (Sec. 301)",
+      "status": "threatened",
+      "rate": "TBD",
+      "rateNum": null,
+      "scope": "The USTR is investigating Cambodia’s acts, policies, and practice relating to structural excess capacity and production in certain sectors, including the garment, footwear, and travel goods sectors. References: Fed. Reg. notice (released Mar. 11, 2026)",
+      "countermeasures": "—"
+    },
+    {
       "country": "Additional (aircraft): Threatened (Jan. 29, 2026)",
       "status": "tbd",
       "rate": "TBD",
@@ -52,10 +68,26 @@
       "countermeasures": "—"
     },
     {
-      "country": "European Union Suspended: 4.4–25% tariffs on U.S.-origin goods in Annexes I-IV to Implementing Regulation (EU) 2025/1564 7.5–30% tariffs on U.S.-origin goods in Annexes VI-XI to Implementing Regulation (EU) 2025/1564 and the direct or indirect export of goods classified in headings 7204 (ferrous waste and scrap; remelting scrap ingots of iron or steel) or 7602 (aluminum waste and scrap) to the United States 25% tariffs on U.S.-origin goods in Annex V to Implementing Regulation (EU) 2025/1564 10–30% tariffs on U.S.-origin goods in Annexes XII-XIII to Implementing Regulation (EU) 2025/1564 Proposed: A tariff-rate quota regime where specified volumes of in-scope steel can enter the EU duty free, but any imports beyond those quotas would be subject to a 50% tariff. The new regime would replace the current safeguards that are set to expire in mid-2026.",
+      "country": "🔔 Section 301: Threatened (Mar. 11, 2026)",
+      "status": "tbd",
+      "rate": "The USTR is investigating China’s acts, policies, and practice relating to structural excess capacity and production in certain sectors, including the electronic equipment; machinery; automobiles and automobile parts; plastics; furniture; articles of iron or steel; apparel; organic chemicals; toys and sporting goods; optical, photo, technical, and medical apparatus; footwear; ships and vessels; and aluminum sectors. References: Fed. Reg. notice (released Mar. 11, 2026)",
+      "rateNum": null,
+      "scope": "",
+      "countermeasures": "—"
+    },
+    {
+      "country": "European Union (Sec. 301) Suspended: 4.4–25% tariffs on U.S.-origin goods in Annexes I-IV to Implementing Regulation (EU) 2025/1564 7.5–30% tariffs on U.S.-origin goods in Annexes VI-XI to Implementing Regulation (EU) 2025/1564 and the direct or indirect export of goods classified in headings 7204 (ferrous waste and scrap; remelting scrap ingots of iron or steel) or 7602 (aluminum waste and scrap) to the United States 25% tariffs on U.S.-origin goods in Annex V to Implementing Regulation (EU) 2025/1564 10–30% tariffs on U.S.-origin goods in Annexes XII-XIII to Implementing Regulation (EU) 2025/1564 Proposed: A tariff-rate quota regime where specified volumes of in-scope steel can enter the EU duty free, but any imports beyond those quotas would be subject to a 50% tariff. The new regime would replace the current safeguards that are set to expire in mid-2026.",
       "status": "threatened",
-      "rate": "200%",
-      "rateNum": 200.0,
+      "rate": "TBD",
+      "rateNum": null,
+      "scope": "The USTR is investigating the European Union’s acts, policies, and practice relating to structural excess capacity and production in certain sectors, including the chemicals and related products and machineries and vehicles sectors. References: Fed. Reg. notice (released Mar. 11, 2026)",
+      "countermeasures": "—"
+    },
+    {
+      "country": "Additional (alcohol products): Threatened (Mar. 13, 2025)",
+      "status": "tbd",
+      "rate": "TBD",
+      "rateNum": null,
       "scope": "",
       "countermeasures": "—"
     },
@@ -76,11 +108,75 @@
       "countermeasures": "—"
     },
     {
+      "country": "Germany (Sec. 301)",
+      "status": "threatened",
+      "rate": "TBD",
+      "rateNum": null,
+      "scope": "The USTR is investigating Germany’s acts, policies, and practice relating to structural excess capacity and production in certain sectors, including the automobiles and automobile parts, machinery, electronic equipment, pharmaceutical products, and chemicals sectors. References: Fed. Reg. notice (released Mar. 11, 2026)",
+      "countermeasures": "—"
+    },
+    {
+      "country": "India (Sec. 301)",
+      "status": "threatened",
+      "rate": "TBD",
+      "rateNum": null,
+      "scope": "The USTR is investigating India’s acts, policies, and practice relating to structural excess capacity and production in certain sectors, including the textiles, health, construction goods, and automotive sectors. References: Fed. Reg. notice (released Mar. 11, 2026)",
+      "countermeasures": "—"
+    },
+    {
+      "country": "Indonesia (Sec. 301)",
+      "status": "threatened",
+      "rate": "TBD",
+      "rateNum": null,
+      "scope": "The USTR is investigating Indonesia’s acts, policies, and practice relating to structural excess capacity and production in certain sectors, including the refined gold, pharmaceutical products, organic chemicals, and machinery sectors. References: Fed. Reg. notice (released Mar. 11, 2026)",
+      "countermeasures": "—"
+    },
+    {
+      "country": "Ireland (Sec. 301)",
+      "status": "threatened",
+      "rate": "TBD",
+      "rateNum": null,
+      "scope": "The USTR is investigating Ireland’s acts, policies, and practice relating to structural excess capacity and production in certain sectors, including the pharmaceutical sector. References: Fed. Reg. notice (released Mar. 11, 2026)",
+      "countermeasures": "—"
+    },
+    {
+      "country": "Japan (Sec. 301)",
+      "status": "threatened",
+      "rate": "TBD",
+      "rateNum": null,
+      "scope": "The USTR is investigating Japan’s acts, policies, and practice relating to structural excess capacity and production in certain sectors, including the automobiles and automobile parts and optical, photo, technical, and medical appartuses sectors. References: Fed. Reg. notice (released Mar. 11, 2026)",
+      "countermeasures": "—"
+    },
+    {
+      "country": "Malaysia (Sec. 301)",
+      "status": "threatened",
+      "rate": "TBD",
+      "rateNum": null,
+      "scope": "The USTR is investigating Malaysia’s acts, policies, and practice relating to structural excess capacity and production in certain sectors, including the electronic equipment, mineral fuels and oils, machinery, animal and vegetable fats and oils, and optical, photo, technical, and medical apparatuses sectors. References: Fed. Reg. notice (released Mar. 11, 2026)",
+      "countermeasures": "—"
+    },
+    {
+      "country": "Mexico (Sec. 301)",
+      "status": "threatened",
+      "rate": "TBD",
+      "rateNum": null,
+      "scope": "The USTR is investigating Mexico’s acts, policies, and practice relating to structural excess capacity and production in certain sectors, including the automotive, construction, rail and ship transportation, health, and steel sectors. References: Fed. Reg. notice (released Mar. 11, 2026)",
+      "countermeasures": "—"
+    },
+    {
       "country": "Nicaragua",
       "status": "implemented",
       "rate": "0% for goods that are originating under CAFTA-DR Jan. 1, 2026 to Dec. 31, 2026: 0% Jan. 1, 2027 to Dec. 31, 2027: 10% Starting Jan. 1, 2028: 15%",
       "rateNum": 15.0,
       "scope": "The USTR determined that Nicaragua’s acts, policies, and practices related to labor rights, human rights and fundamental freedoms, and the rule of law are unreasonable and burden or restrict U.S. commerce, and are therefore actionable under Section 301 of the Trade Act of 1974. References: Fed. Doc. 2025-22690 (filed Dec. 11, 2025) 90 Fed. Reg. 48511 (Oct. 23, 2025)",
+      "countermeasures": "—"
+    },
+    {
+      "country": "Norway (Sec. 301)",
+      "status": "threatened",
+      "rate": "TBD",
+      "rateNum": null,
+      "scope": "The USTR is investigating Norway’s acts, policies, and practice relating to structural excess capacity and production in certain sectors, including the mineral fuels and oils, electronic equipment, machinery, and seafood sectors. The investigation will also examine the policies and practices that have the effect of undervaluing its domestic currency, including the use of state-owned or -controlled enterprises to recycle oil revenues into non-domestic currencies, like the U.S. dollar, rather than its domestic currency. References: Fed. Reg. notice (released Mar. 11, 2026)",
       "countermeasures": "—"
     },
     {
@@ -92,11 +188,51 @@
       "countermeasures": "—"
     },
     {
+      "country": "Singapore (Sec. 301)",
+      "status": "threatened",
+      "rate": "TBD",
+      "rateNum": null,
+      "scope": "The USTR is investigating Singapore’s acts, policies, and practice relating to structural excess capacity and production in certain sectors, including the semiconductor, electronic equipment, petrochemical, and pharmaceutical sectors. References: Fed. Reg. notice (released Mar. 11, 2026)",
+      "countermeasures": "—"
+    },
+    {
+      "country": "South Korea (Sec. 301)",
+      "status": "threatened",
+      "rate": "TBD",
+      "rateNum": null,
+      "scope": "The USTR is investigating South Korea’s acts, policies, and practice relating to structural excess capacity and production in certain sectors, including the electronic equipment, automobiles and automobile parts, machinery, steel, and ships and marine vessels sectors. References: Fed. Reg. notice (released Mar. 11, 2026)",
+      "countermeasures": "—"
+    },
+    {
       "country": "Spain",
       "status": "threatened",
       "rate": "TBD",
       "rateNum": null,
       "scope": "USTR may renew its Section 301 investigation to address digital services taxes (DSTs) References: Defending American Corporations and Innovators from Overseas Extortion Memo (Feb. 21, 2025)",
+      "countermeasures": "—"
+    },
+    {
+      "country": "Switzerland (Sec. 301)",
+      "status": "threatened",
+      "rate": "TBD",
+      "rateNum": null,
+      "scope": "The USTR is investigating Switzerland’s acts, policies, and practice relating to structural excess capacity and production in certain sectors, including the refined gold, pharmaceutical products, organic chemicals, and machinery sectors. References: Fed. Reg. notice (released Mar. 11, 2026)",
+      "countermeasures": "—"
+    },
+    {
+      "country": "Taiwan (Sec. 301)",
+      "status": "threatened",
+      "rate": "TBD",
+      "rateNum": null,
+      "scope": "The USTR is investigating Taiwan’s acts, policies, and practice relating to structural excess capacity and production in certain sectors, including the semiconductor, electronic products, information technology products, and machinery sectors. References: Fed. Reg. notice (released Mar. 11, 2026)",
+      "countermeasures": "—"
+    },
+    {
+      "country": "Thailand (Sec. 301)",
+      "status": "threatened",
+      "rate": "TBD",
+      "rateNum": null,
+      "scope": "The USTR is investigating Thailand’s acts, policies, and practice relating to structural excess capacity and production in certain sectors, including the automobile and automobile parts, machinery, and rubber sectors. References: Fed. Reg. notice (released Mar. 11, 2026)",
       "countermeasures": "—"
     },
     {
@@ -113,6 +249,14 @@
       "rate": "TBD",
       "rateNum": null,
       "scope": "USTR may renew its Section 301 investigation to address digital services taxes (DSTs) References: Defending American Corporations and Innovators from Overseas Extortion Memo (Feb. 21, 2025)",
+      "countermeasures": "—"
+    },
+    {
+      "country": "Vietnam (Sec. 301)",
+      "status": "threatened",
+      "rate": "TBD",
+      "rateNum": null,
+      "scope": "The USTR is investigating Vietnam’s acts, policies, and practice relating to structural excess capacity and production in certain sectors, including the electronic equipment, machinery, footwear, apparel, furniture, and steel sectors. References: Fed. Reg. notice (released Mar. 11, 2026)",
       "countermeasures": "—"
     }
   ],
@@ -370,7 +514,7 @@
       ]
     },
     {
-      "heading": "🔔 IEEPA tariff refund process",
+      "heading": "IEEPA tariff refund process",
       "items": [
         "On March 4, 2026, Judge Eaton of the Court of International Trade concluded that “[a]ll importers of record whose entries were subject to IEEPA [tariffs] are entitled to the benefit of the Learning Resources decision.” He also ordered U.S. Customs and Border Protection (CBP) to begin the refund process.",
         "Two days later, the Government filed a declaration from CBP’s Executive Director, Trade Programs Directorate, indicating that CBP is not able to comply with the March 4 order.",
@@ -391,6 +535,7 @@
     {
       "heading": "Updates and relevant publications",
       "items": [
+        "Mar. 11, 2026: The USTR released a Federal Register notice initiating Section 301 investigations involving Bangladesh, Cambodia, China, the European Union, India, Indonesia, Japan, Malaysia, Mexico, Norway, Singapore, South Korea, Switzerland, Taiwan, Thailand, Vietnam. Public comments and requests to appear at the public hearing must be submitted by April 15. The public hearing will occur on May 5.",
         "Mar. 5, 2026: Podcast: The SCOTUS IEEPA ruling—Europe’s response and what it means for business",
         "Feb. 24, 2026: Podcast: What comes next? Trump tariffs after the SCOTUS decision",
         "Feb. 20, 2026: SCOTUS strikes down IEEPA tariffs; leaves refund question open",
