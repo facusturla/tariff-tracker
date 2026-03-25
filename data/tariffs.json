@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-03-24T08:38:30.700364+00:00",
-  "article_date": "2026-03-23",
-  "source_url": "https://www.tradecomplianceresourcehub.com/2026/03/23/trump-2-0-tariff-tracker/",
+  "scraped_at": "2026-03-25T08:37:02.073481+00:00",
+  "article_date": "2026-03-24",
+  "source_url": "https://www.tradecomplianceresourcehub.com/2026/03/24/trump-2-0-tariff-tracker/",
   "countries": [
     {
       "country": "All",
@@ -763,14 +763,14 @@
       "rate": "25% Modified rate for products of EU Member States, Japan, or South Korea: (EU rate effective Aug. 1, 2025; Japan rate effective Sept. 16, 2025; South Korea rate effective Nov. 1, 2025) 0% for all products with a Column 1 Duty Rate ≥ 15% 15% minus Column 1 Duty Rate for all products with a Column 1 Duty Rate < 15%",
       "rateNum": 25.0,
       "scope": "See Note 33(a)-(e), Subchapter III, Chapter 99, HTSUS Applies by HTSUS classification",
-      "notes": "See stacking explanation below 🔔 South Korea rate: Threatened increase to 25% (Jan. 27, 2025) Calculation: If the product qualifies for preferential treatment under the USMCA, the tariff applies to the non-U.S. content. UK aerospace exemption: products that fall under the WTO Agreement on Trade in Civil Aircraft (effective June 23, 2025) References: Fed. Reg. Doc. 2025-21940 (filed Dec. 3, 2025) 90 Fed. Reg. 43136 (Sept. 25, 2025) Exec. Order 14345 (Sept. 4, 2025) Exec. Order 14309 (June 16, 2025) Exec. Order 14289 (Apr. 29, 2025) Proclamation 10908 (Mar. 26, 2025)"
+      "notes": "See stacking explanation below South Korea rate: Threatened increase to 25% (Jan. 27, 2025) Calculation: If the product qualifies for preferential treatment under the USMCA, the tariff applies to the non-U.S. content. UK aerospace exemption: products that fall under the WTO Agreement on Trade in Civil Aircraft (effective June 23, 2025) References: Fed. Reg. Doc. 2025-21940 (filed Dec. 3, 2025) 90 Fed. Reg. 43136 (Sept. 25, 2025) Exec. Order 14345 (Sept. 4, 2025) Exec. Order 14309 (June 16, 2025) Exec. Order 14289 (Apr. 29, 2025) Proclamation 10908 (Mar. 26, 2025)"
     },
     {
       "product": "Automobile parts",
       "status": "implemented",
       "rate": "UK-origin products for use in UK-origin automobiles: 10% (including any most-favored nation duties) All other countries: 25% Modified rate for products of EU Member States, Japan, or South Korea : (EU rate effective Aug. 1, 2025; Japan rate effective Sept. 16, 2025; South Korea rate effective Nov. 1, 2025) 0% for all products with a Column 1 Duty Rate ≥ 15% 15% minus Column 1 Duty Rate for all products with a Column 1 Duty Rate < 15%",
       "rateNum": 25.0,
-      "scope": "See Note 33(g)-(h), Subchapter III, Chapter 99, HTSUS Applies by HTSUS classification",
+      "scope": "See Note 33(g)-(h), Subchapter III, Chapter 99, HTSUS Applies by HTSUS classification Incl. Window 🔔 Apr. 1-14, 2026 (Dkt. ID: ITA-2025-0040) (91 Fed. Reg. 139998 (Mar. 24, 2026))",
       "notes": "See stacking explanation below Exemptions: USMCA (effective Mar. 26, 2025) Potential reductions: (a) Domestic vehicle manufacturer’s import adjustment (b) Domestic engine manufacturer’s import adjustment Potential reductions: (a) Automobile manufacturers can apply for an import adjustment offset equal to 3.75% of the aggregate MSRP value of all automobiles they assemble in the United States from April 5, 2025 through April 30, 2030. The import adjustment will be applied to parts accounting for 15% of an automobile’s value. To be included in the import adjustment calculation, vehicles must undergo final assembly in the United States. (b) Commerce will establish a similar import adjustment for engine manufacturers. The offset accrual will be based on the aggregate value of automobile engines they assemble in the United States. Drawback eligibility: manufacturing drawback only (effective Oct. 17, 2025) References: Fed. Reg. Doc. 2025-21940 (filed Dec. 3, 2025) Proclamation (Oct. 17, 2025) 90 Fed. Reg. 43136 (Sept. 25, 2025) Exec. Order 14345 (Sept. 4, 2025) Exec. Order 14309 (June 16, 2025) Exec. Order 14289 (Apr. 29, 2025) Proclamation 10908 (Mar. 26, 2025)"
     },
     {
@@ -818,7 +818,7 @@
       "status": "implemented",
       "rate": "See Note 37(c)-(d), Subchapter III, Chapter 99, HTSUS Applies by HTSUS classification HTSUS 9401.61.4011, 9401.61.4031, 9401.61.6011, 9401.61.6031",
       "rateNum": null,
-      "scope": "See stacking explanation below 🔔 South Korea rate: Threatened increase to 25% (Jan. 27, 2025) References: Proclamation (Dec. 31, 2025) Fed. Reg. Doc. 2025-21940 (filed Dec. 3, 2025) Proclamation (Sept. 29, 2025) 90 Fed. Reg. 11941 (Mar. 13, 2025) Exec. Order 14223 (Mar. 1, 2025)",
+      "scope": "See stacking explanation below South Korea rate: Threatened increase to 25% (Jan. 27, 2025) References: Proclamation (Dec. 31, 2025) Fed. Reg. Doc. 2025-21940 (filed Dec. 3, 2025) Proclamation (Sept. 29, 2025) 90 Fed. Reg. 11941 (Mar. 13, 2025) Exec. Order 14223 (Mar. 1, 2025)",
       "notes": ""
     },
     {
@@ -826,7 +826,7 @@
       "status": "implemented",
       "rate": "See Note 37(e)-(f), Subchapter III, Chapter 99, HTSUS Applies by HTSUS classification HTSUS 9403.40.9060, 9403.60.8093, 9403.91.0080 Includes finished kitchen cabinets and vanities, as well as parts imported for use in kitchen cabinets and vanities",
       "rateNum": null,
-      "scope": "See stacking explanation below 🔔 South Korea rate: Threatened increase to 25% (Jan. 27, 2025) References: Proclamation (Dec. 31, 2025) Fed. Reg. Doc. 2025-21940 (filed Dec. 3, 2025) Proclamation (Sept. 29, 2025) 90 Fed. Reg. 11941 (Mar. 13, 2025) Exec. Order 14223 (Mar. 1, 2025)",
+      "scope": "See stacking explanation below South Korea rate: Threatened increase to 25% (Jan. 27, 2025) References: Proclamation (Dec. 31, 2025) Fed. Reg. Doc. 2025-21940 (filed Dec. 3, 2025) Proclamation (Sept. 29, 2025) 90 Fed. Reg. 11941 (Mar. 13, 2025) Exec. Order 14223 (Mar. 1, 2025)",
       "notes": ""
     },
     {
@@ -899,7 +899,7 @@
       "rate": "TBD",
       "rateNum": null,
       "scope": "TBD",
-      "notes": "🔔 The Secretary of Commerce and USTR will negotiate agreements to address the threatened impairment of national security. A status report is due to the President by July 13. “ Processed critical minerals ” are critical minerals that have undergone activities that occur after critical mineral ore is extracted from a mine up through its conversion into a metal, metal powder, or a master alloy. “ Derivative products ” include all goods that incorporate processed critical minerals as inputs, including semi-finished goods (e.g., semiconductor wafers, anodes, cathodes) and final products (e.g., permanent magnets, motors, electric vehicles, batteries, smartphones, microprocessors, radar systems, wind turbines and their components, advanced optical devices). On April 22, Commerce initiated a Section 232 investigation to determine the effects on the national security of imports of processed critical minerals, as well as their derivative products. References: Proclamation (Jan. 14, 2026) 90 Fed. Reg. 17372 (Apr. 25, 2025) Exec. Order 14272 (Apr. 16, 2025)"
+      "notes": "The Secretary of Commerce and USTR will negotiate agreements to address the threatened impairment of national security. A status report is due to the President by July 13. “ Processed critical minerals ” are critical minerals that have undergone activities that occur after critical mineral ore is extracted from a mine up through its conversion into a metal, metal powder, or a master alloy. “ Derivative products ” include all goods that incorporate processed critical minerals as inputs, including semi-finished goods (e.g., semiconductor wafers, anodes, cathodes) and final products (e.g., permanent magnets, motors, electric vehicles, batteries, smartphones, microprocessors, radar systems, wind turbines and their components, advanced optical devices). On April 22, Commerce initiated a Section 232 investigation to determine the effects on the national security of imports of processed critical minerals, as well as their derivative products. References: Proclamation (Jan. 14, 2026) 90 Fed. Reg. 17372 (Apr. 25, 2025) Exec. Order 14272 (Apr. 16, 2025)"
     },
     {
       "product": "Robotics and industrial machinery",
@@ -1017,6 +1017,7 @@
     {
       "heading": "Updates and relevant publications",
       "items": [
+        "Mar. 24, 2026: Commerce, working with the International Trade Administration (ITA), released a Federal Register notice announcing the opening of the inclusions window for the Section 232 automobile parts tariff inclusions process. The window will be open from April 1 to April 14. After the submission window closes, the submission window, accepted inclusion requests will be posted for a two-week public comment period on Docket ID ITA-2025-0040 on Regulations.gov.",
         "Mar. 12, 2026: The USTR released a Federal Register notice initiating Section 301 investigations involving the following countries’ failure to impose and effectively enforce a ban on the importation of goods produced with forced labor:  Algeria, Angola, Argentina, Australia, The Bahamas, Bahrain, Bangladesh, Brazil, Cambodia, Canada, Chile, China, Colombia, Costa Rica, Dominican Republic, Ecuador, Egypt, El Salvador, European Union, Guatemala, Guyana, Honduras, Hong Kong, India, Indonesia, Iraq, Israel, Japan, Jordan, Kazakhstan, Kuwait, Libya, Malaysia, Mexico, Morocco, New Zealand, Nicaragua, Nigeria, Norway, Oman, Pakistan, Peru, Philippines, Qatar, Russia, Saudi Arabia, Singapore, South Africa, South Korea, Sri Lanka, Switzerland, Taiwan, Thailand, Trinidad and Tobago, Turkey, United Arab Emirates, United Kingdom, Uruguay,  Venezuela, Vietnam. Publi c comments and requests to appear at the public hearing must be submitted by April 15. The public hearing will occur on May 5.",
         "Mar. 11, 2026: The USTR released a Federal Register notice initiating Section 301 investigations involving Bangladesh, Cambodia, China, the European Union, India, Indonesia, Japan, Malaysia, Mexico, Norway, Singapore, South Korea, Switzerland, Taiwan, Thailand, Vietnam. Public comments and requests to appear at the public hearing must be submitted by April 15. The public hearing will occur on April 28.",
         "Mar. 5, 2026: Podcast: The SCOTUS IEEPA ruling—Europe’s response and what it means for business",
