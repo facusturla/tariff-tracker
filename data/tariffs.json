@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-04-08T08:50:56.107329+00:00",
-  "article_date": "2026-04-02",
-  "source_url": "https://www.tradecomplianceresourcehub.com/2026/04/02/trump-2-0-tariff-tracker/",
+  "scraped_at": "2026-04-09T08:58:21.325270+00:00",
+  "article_date": "2026-04-08",
+  "source_url": "https://www.tradecomplianceresourcehub.com/2026/04/08/trump-2-0-tariff-tracker/",
   "countries": [
     {
       "country": "All",
@@ -23,6 +23,14 @@
       "country": "Russia-related sanctions: Threatened (Jan. 7, 2026)",
       "status": "tbd",
       "rate": "If the Sanctioning Russia Act of 2025 passes Congress and is signed into law, the President can impose the tariff on imports from any country that knowingly sells, supplies, transfers, or purchases Russian-origin oil, uranium, natural gas, petroleum products, or petrochemical products.",
+      "rateNum": null,
+      "scope": "",
+      "countermeasures": "—"
+    },
+    {
+      "country": "🔔 Additional (Iran military weapons): Threatened (Apr. 8, 2026)",
+      "status": "tbd",
+      "rate": "All products from any country that supplies military weapons to Iran",
       "rateNum": null,
       "scope": "",
       "countermeasures": "—"
@@ -160,7 +168,7 @@
       "status": "tbd",
       "rate": "References: Fed. Reg. notice (released Mar. 12, 2026)",
       "rateNum": null,
-      "scope": "🔔 Investigation into U.S. trade practices: China launched two investigations into U.S. trade practices that “disrupt global supply and industrial ​chains” and “hinder trade in green products.” The investigations are scheduled to conclude within six months. (Mar. 27, 2026)",
+      "scope": "Investigation into U.S. trade practices: China launched two investigations into U.S. trade practices that “disrupt global supply and industrial ​chains” and “hinder trade in green products.” The investigations are scheduled to conclude within six months. (Mar. 27, 2026)",
       "countermeasures": "—"
     },
     {
