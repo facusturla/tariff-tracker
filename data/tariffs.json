@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-04-15T09:08:58.812108+00:00",
-  "article_date": "2026-04-08",
-  "source_url": "https://www.tradecomplianceresourcehub.com/2026/04/08/trump-2-0-tariff-tracker/",
+  "scraped_at": "2026-04-16T09:08:36.357576+00:00",
+  "article_date": "2026-04-15",
+  "source_url": "https://www.tradecomplianceresourcehub.com/2026/04/15/trump-2-0-tariff-tracker/",
   "countries": [
     {
       "country": "All",
@@ -1002,25 +1002,20 @@
       ]
     },
     {
-      "heading": "IEEPA tariff refund process",
+      "heading": "🔔 IEEPA tariff refund process",
       "items": [
-        "On March 4, 2026, Judge Eaton of the Court of International Trade concluded that “[a]ll importers of record whose entries were subject to IEEPA [tariffs] are entitled to the benefit of the Learning Resources decision.” He also ordered U.S. Customs and Border Protection (CBP) to begin the refund process.",
-        "Two days later, the Government filed a declaration from CBP’s Executive Director, Trade Programs Directorate, indicating that CBP is not able to comply with the March 4 order.",
-        "CBP’s proposed refund process",
-        "Instead, CBP proposed new customs system (ACE) functionality to streamline and consolidate refunds and interests payments on an importer basis. CBP anticipates that process involving the following steps:",
-        "The importer files a declaration in ACE that includes a list of entries on which IEEPA tariffs were paid.",
-        "ACE validates the data and calculates the refund amount (with interest).",
-        "CBP verifies the declaration and processes the refund as soon as practicable.",
-        "ACE automatically finalizes (liquidates or reliquidates) the entries.",
-        "ACE automatically aggregates the refunds with interest by importer and liquidation date.",
-        "CBP certifies the refunds.",
-        "The Treasury Department issues the refunds electronically.",
-        "CBP anticipates working to deploy the new functionality over the next 45 days. CBP also expects to issue guidance on how to file a refund declaration in the new system.",
-        "Mar. 27, 2026: Judge Eaton amended his order to also require CBP to reliquidate any entries for which liquidation is final without IEEPA tariffs. The amended order remains suspended.",
-        "Mar. 19, 2026: CBP’s status report indicates its development of CAPE is approximately 65% complete. CBP’s next status update is due March 26.",
-        "Mar. 12, 2026: CBP filed a status report with the court indicating that initial development of the new ACE functionality, called the Consolidated Administration and Process of Entries (CAPE), is approximately 56% complete. CBP anticipates a phased development for CAPE with additional functionality being added in subsequent phases. CBP’s next status update is due March 19.",
-        "Mar. 6, 2026: Judge Eaton suspended his amended order to the extent that it directs CBP’s immediate compliance. Judge Eaton also ordered the Government to file a status update on March 12.",
-        "Mar. 5, 2026: Judge Eaton amended his original order to cover only those tariffs at issue in Learning Resources ."
+        "On April 20, 2026, U.S. Customs and Border Protection (CBP) is scheduled to launch the Consolidated Administration and Processing of Entries (CAPE) functionality within the Automated Commercial Environment (ACE) to streamline the submission and processing of valid IEEPA tariff refund requests.",
+        "Only importers of record and customs brokers who filed the original entries with CBP will be able to file refund requests (CAPE Declarations).",
+        "Phase 1 functionality",
+        "When Phase 1 goes live, CAPE will accept CAPE Declarations for (1) unliquidated entries and (2) entries that liquidated within 80 days of the CAPE Declaration being accepted. CAPE Declarations will not be accepted for the following entries:",
+        "Entries flagged for reconciliation, as well as Entry Type 09 – Reconciliation Summary.",
+        "Entries designated on a drawback claim.",
+        "Entries covered by an open protest.",
+        "Entries not filed in ACE and entries without a liquidation status in ACE.",
+        "Entries subject to antidumping or countervailing duties (AD/CVDs) that are pending liquidating pursuant to Commerce-issued liquidation instructions.",
+        "CBP anticipates releasing updates to CAPE in the future to address these entries, as well as entries that liquidated more than 80 days before the CAPE Declaration is accepted.",
+        "CBP anticipates electronic refunds generally being issued within 60-90 days of the CAPE Declaration being accepted. If a compliance concern is identified during CBP’s review, the refund processing may be delayed.",
+        "For more information, visit CBP’s IEEPA Duty Refunds landing page ."
       ]
     },
     {
