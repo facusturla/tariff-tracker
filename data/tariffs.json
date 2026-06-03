@@ -1,14 +1,14 @@
 {
-  "scraped_at": "2026-06-02T11:56:07.636256+00:00",
-  "article_date": "2026-05-28",
-  "source_url": "https://www.tradecomplianceresourcehub.com/2026/05/28/trump-2-0-tariff-tracker/",
+  "scraped_at": "2026-06-03T12:28:36.790026+00:00",
+  "article_date": "2026-06-02",
+  "source_url": "https://www.tradecomplianceresourcehub.com/2026/06/02/trump-2-0-tariff-tracker/",
   "countries": [
     {
       "country": "All",
       "status": "implemented",
       "rate": "10%",
       "rateNum": 10.0,
-      "scope": "See exemptions below Rate increase to 15%: Threatened (Feb. 21, 2026) Ends at 12:01 a.m. (ET) on July 24, 2026 🔔 President Trump announced that he will exempt UK-origin whiskey. No official document implementing the change has been released. (May 1, 2026) De minimis exemption suspended (effective Aug. 29, 2025; continued Feb. 20, 2026): With the exception of shipments sent through the international postal network, which are subject special duty rates, shipments that would have otherwise qualified for the de minimis exemption are subject to all applicable duties and tariffs. References: Proc. 11012 (Feb. 20, 2026)",
+      "scope": "See exemptions below Rate increase to 15%: Threatened (Feb. 21, 2026) Ends at 12:01 a.m. (ET) on July 24, 2026 President Trump announced that he will exempt UK-origin whiskey. No official document implementing the change has been released. (May 1, 2026) De minimis exemption suspended (effective Aug. 29, 2025; continued Feb. 20, 2026): With the exception of shipments sent through the international postal network, which are subject special duty rates, shipments that would have otherwise qualified for the de minimis exemption are subject to all applicable duties and tariffs. References: Proc. 11012 (Feb. 20, 2026)",
       "countermeasures": "—"
     },
     {
@@ -110,9 +110,17 @@
     {
       "country": "Brazil (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
+      "rate": "25%",
+      "rateNum": 25.0,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs (b) Items listed in the Annex to the Federal Register notice",
+      "countermeasures": "—"
+    },
+    {
+      "country": "Section 301 (forced labor): Threatened (Mar. 12, 2026)",
+      "status": "tbd",
+      "rate": "References: Fed. Reg. notice (released Mar. 12, 2026)",
       "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "scope": "",
       "countermeasures": "—"
     },
     {
@@ -736,7 +744,15 @@
       "status": "threatened",
       "rate": "TBD",
       "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "scope": "References: Fed. Reg. Doc. 2026-11136",
+      "countermeasures": "—"
+    },
+    {
+      "country": "Section 301 (forced labor): Threatened (Mar. 12, 2026)",
+      "status": "tbd",
+      "rate": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rateNum": null,
+      "scope": "",
       "countermeasures": "—"
     },
     {
@@ -1013,7 +1029,7 @@
         "Entries covered by an open protest.",
         "Entries not filed in ACE and entries without a liquidation status in ACE.",
         "Entries subject to antidumping or countervailing duties (AD/CVDs) that are pending liquidating pursuant to Commerce-issued liquidation instructions.",
-        "CBP anticipates releasing updates to CAPE in the future to address these entries, as well as entries that liquidated more than 80 days before the CAPE Declaration is accepted.",
+        "CBP anticipates releasing updates to CAPE in the future to address these entries. 🔔 On May 29, the Government indicated that it intends to appeal the portion of the CIT’s order requiring CBP to process refunds on finally liquidated entries. Instead, the Government indicated that the court should be issuing orders in the refund cases currently pending before the CIT.",
         "CBP anticipates electronic refunds generally being issued within 60-90 days of the CAPE Declaration being accepted. If a compliance concern is identified during CBP’s review, the refund processing may be delayed.",
         "For more information, visit CBP’s IEEPA Duty Refunds landing page ."
       ]
@@ -1021,6 +1037,7 @@
     {
       "heading": "Updates and relevant publications",
       "items": [
+        "June 1, 2026: The USTR released a Federal Register notice proposing action on imports from Brazil under Section 301 of the Trade Act of 1974. Requests to appear at the public hearing must be submitted by June 22. Public comments are due by July 1.",
         "Mar. 24, 2026: Commerce, working with the International Trade Administration (ITA), released a Federal Register notice announcing the opening of the inclusions window for the Section 232 automobile parts tariff inclusions process. The window will be open from April 1 to April 14. After the submission window closes, the submission window, accepted inclusion requests will be posted for a two-week public comment period on Docket ID ITA-2025-0040 on Regulations.gov.",
         "Mar. 12, 2026: The USTR released a Federal Register notice initiating Section 301 investigations involving the following countries’ failure to impose and effectively enforce a ban on the importation of goods produced with forced labor:  Algeria, Angola, Argentina, Australia, The Bahamas, Bahrain, Bangladesh, Brazil, Cambodia, Canada, Chile, China, Colombia, Costa Rica, Dominican Republic, Ecuador, Egypt, El Salvador, European Union, Guatemala, Guyana, Honduras, Hong Kong, India, Indonesia, Iraq, Israel, Japan, Jordan, Kazakhstan, Kuwait, Libya, Malaysia, Mexico, Morocco, New Zealand, Nicaragua, Nigeria, Norway, Oman, Pakistan, Peru, Philippines, Qatar, Russia, Saudi Arabia, Singapore, South Africa, South Korea, Sri Lanka, Switzerland, Taiwan, Thailand, Trinidad and Tobago, Turkey, United Arab Emirates, United Kingdom, Uruguay,  Venezuela, Vietnam. Publi c comments and requests to appear at the public hearing must be submitted by April 15. The public hearing will occur on May 5.",
         "Mar. 11, 2026: The USTR released a Federal Register notice initiating Section 301 investigations involving Bangladesh, Cambodia, China, the European Union, India, Indonesia, Japan, Malaysia, Mexico, Norway, Singapore, South Korea, Switzerland, Taiwan, Thailand, Vietnam. Public comments and requests to appear at the public hearing must be submitted by April 15. The public hearing will occur on April 28.",
