@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-06-03T12:28:36.790026+00:00",
-  "article_date": "2026-06-02",
-  "source_url": "https://www.tradecomplianceresourcehub.com/2026/06/02/trump-2-0-tariff-tracker/",
+  "scraped_at": "2026-06-04T10:52:51.463574+00:00",
+  "article_date": "2026-06-03",
+  "source_url": "https://www.tradecomplianceresourcehub.com/2026/06/03/trump-2-0-tariff-tracker/",
   "countries": [
     {
       "country": "All",
@@ -38,33 +38,33 @@
     {
       "country": "Algeria (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "12.5%",
+      "rateNum": 12.5,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
       "country": "Angola (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "12.5%",
+      "rateNum": 12.5,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
       "country": "Argentina (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "10%",
+      "rateNum": 10.0,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
       "country": "Australia (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "12.5%",
+      "rateNum": 12.5,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
@@ -78,25 +78,25 @@
     {
       "country": "The Bahamas (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "12.5%",
+      "rateNum": 12.5,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
       "country": "Bahrain (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "12.5%",
+      "rateNum": 12.5,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
       "country": "Bangladesh (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "10%",
+      "rateNum": 10.0,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
@@ -116,9 +116,9 @@
       "countermeasures": "—"
     },
     {
-      "country": "Section 301 (forced labor): Threatened (Mar. 12, 2026)",
+      "country": "🔔 Section 301 (forced labor): Threatened (Mar. 12, 2026; proposed rate announced June 2, 2026)",
       "status": "tbd",
-      "rate": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "rateNum": null,
       "scope": "",
       "countermeasures": "—"
@@ -126,9 +126,9 @@
     {
       "country": "Cambodia (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "10%",
+      "rateNum": 10.0,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
@@ -158,9 +158,9 @@
     {
       "country": "Chile (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "12.5%",
+      "rateNum": 12.5,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
@@ -172,9 +172,9 @@
       "countermeasures": "—"
     },
     {
-      "country": "Section 301 (forced labor): Threatened (Mar. 12, 2026)",
+      "country": "🔔 Section 301 (forced labor): Threatened (Mar. 12, 2026; proposed rate announced June 2, 2026)",
       "status": "tbd",
-      "rate": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "rateNum": null,
       "scope": "Investigation into U.S. trade practices: China launched two investigations into U.S. trade practices that “disrupt global supply and industrial chains” and “hinder trade in green products.” The investigations are scheduled to conclude within six months. (Mar. 27, 2026)",
       "countermeasures": "—"
@@ -190,57 +190,57 @@
     {
       "country": "Colombia (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "12.5%",
+      "rateNum": 12.5,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
       "country": "Costa Rica (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "12.5%",
+      "rateNum": 12.5,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Textiles and apparel entered duty-free under CAFTA-DR. (c) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
       "country": "Dominican Republic (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "12.5%",
+      "rateNum": 12.5,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Textiles and apparel entered duty-free under CAFTA-DR. (c) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
       "country": "Ecuador (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "10%",
+      "rateNum": 10.0,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
       "country": "Egypt (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "12.5%",
+      "rateNum": 12.5,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
       "country": "El Salvador (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "10%",
+      "rateNum": 10.0,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Textiles and apparel entered duty-free under CAFTA-DR. (c) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
       "country": "European Union (Sec. 301) Suspended: 4.4–25% tariffs on U.S.-origin goods in Annexes I-IV to Implementing Regulation (EU) 2025/1564 7.5–30% tariffs on U.S.-origin goods in Annexes VI-XI to Implementing Regulation (EU) 2025/1564 and the direct or indirect export of goods classified in headings 7204 (ferrous waste and scrap; remelting scrap ingots of iron or steel) or 7602 (aluminum waste and scrap) to the United States 25% tariffs on U.S.-origin goods in Annex V to Implementing Regulation (EU) 2025/1564 10–30% tariffs on U.S.-origin goods in Annexes XII-XIII to Implementing Regulation (EU) 2025/1564 Proposed: A tariff-rate quota regime where specified volumes of in-scope steel can enter the EU duty free, but any imports beyond those quotas would be subject to a 50% tariff. The new regime would replace the current safeguards that are set to expire in mid-2026.",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "10%",
+      "rateNum": 10.0,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
@@ -286,41 +286,41 @@
     {
       "country": "Guatemala (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "10%",
+      "rateNum": 10.0,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Textiles and apparel entered duty-free under CAFTA-DR. (c) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
       "country": "Guyana (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "12.5%",
+      "rateNum": 12.5,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
       "country": "Honduras (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "12.5%",
+      "rateNum": 12.5,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Textiles and apparel entered duty-free under CAFTA-DR. (c) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
       "country": "Hong Kong (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "12.5%",
+      "rateNum": 12.5,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
       "country": "India (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "12.5%",
+      "rateNum": 12.5,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
@@ -334,9 +334,9 @@
     {
       "country": "Indonesia (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "10%",
+      "rateNum": 10.0,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
@@ -350,9 +350,9 @@
     {
       "country": "Iraq (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "12.5%",
+      "rateNum": 12.5,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
@@ -366,17 +366,17 @@
     {
       "country": "Israel (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "12.5%",
+      "rateNum": 12.5,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
       "country": "Japan (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "12.5%",
+      "rateNum": 12.5,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
@@ -390,41 +390,41 @@
     {
       "country": "Jordan (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "12.5%",
+      "rateNum": 12.5,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
       "country": "Kazakhstan (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "12.5%",
+      "rateNum": 12.5,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
       "country": "Kuwait (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "12.5%",
+      "rateNum": 12.5,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
       "country": "Libya (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "12.5%",
+      "rateNum": 12.5,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
       "country": "Malaysia (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "10%",
+      "rateNum": 10.0,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
@@ -438,9 +438,9 @@
     {
       "country": "Mexico (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "10%",
+      "rateNum": 10.0,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items qualifying for duty-free treatment under the USMCA. (c) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
@@ -454,17 +454,17 @@
     {
       "country": "Morocco (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "12.5%",
+      "rateNum": 12.5,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
       "country": "New Zealand (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "12.5%",
+      "rateNum": 12.5,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
@@ -476,9 +476,9 @@
       "countermeasures": "—"
     },
     {
-      "country": "Section 301 (forced labor): Threatened (Mar. 12, 2026)",
+      "country": "🔔 Section 301 (forced labor): Threatened (Mar. 12, 2026; proposed rate announced June 2, 2026)",
       "status": "tbd",
-      "rate": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Textiles and apparel entered duty-free under CAFTA-DR. (c) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "rateNum": null,
       "scope": "",
       "countermeasures": "—"
@@ -486,17 +486,17 @@
     {
       "country": "Nigeria (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "12.5%",
+      "rateNum": 12.5,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
       "country": "Norway (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "12.5%",
+      "rateNum": 12.5,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
@@ -510,49 +510,49 @@
     {
       "country": "Oman (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "12.5%",
+      "rateNum": 12.5,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
       "country": "Pakistan (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "10%",
+      "rateNum": 10.0,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
       "country": "Peru (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "12.5%",
+      "rateNum": 12.5,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
       "country": "Philippines (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "12.5%",
+      "rateNum": 12.5,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
       "country": "Qatar (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "12.5%",
+      "rateNum": 12.5,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
       "country": "Russia (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "12.5%",
+      "rateNum": 12.5,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
@@ -566,17 +566,17 @@
     {
       "country": "Saudi Arabia (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "12.5%",
+      "rateNum": 12.5,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
       "country": "Singapore (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "12.5%",
+      "rateNum": 12.5,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
@@ -590,17 +590,17 @@
     {
       "country": "South Africa (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "12.5%",
+      "rateNum": 12.5,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
       "country": "South Korea (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "12.5%",
+      "rateNum": 12.5,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
@@ -622,17 +622,17 @@
     {
       "country": "Sri Lanka (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "12.5%",
+      "rateNum": 12.5,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
       "country": "Switzerland (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "12.5%",
+      "rateNum": 12.5,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
@@ -646,9 +646,9 @@
     {
       "country": "Taiwan (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "10%",
+      "rateNum": 10.0,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
@@ -662,9 +662,9 @@
     {
       "country": "Thailand (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "12.5%",
+      "rateNum": 12.5,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
@@ -678,17 +678,17 @@
     {
       "country": "Trinidad and Tobago (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "12.5%",
+      "rateNum": 12.5,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
       "country": "Turkey (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "12.5%",
+      "rateNum": 12.5,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
@@ -702,17 +702,17 @@
     {
       "country": "United Arab Emirates (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "12.5%",
+      "rateNum": 12.5,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
       "country": "United Kingdom (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "10%",
+      "rateNum": 10.0,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
@@ -726,17 +726,17 @@
     {
       "country": "Uruguay (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "12.5%",
+      "rateNum": 12.5,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
       "country": "Venezuela (Sec. 301)",
       "status": "threatened",
-      "rate": "TBD",
-      "rateNum": null,
-      "scope": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "12.5%",
+      "rateNum": 12.5,
+      "scope": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "countermeasures": "—"
     },
     {
@@ -748,9 +748,9 @@
       "countermeasures": "—"
     },
     {
-      "country": "Section 301 (forced labor): Threatened (Mar. 12, 2026)",
+      "country": "🔔 Section 301 (forced labor): Threatened (Mar. 12, 2026; proposed rate announced June 2, 2026)",
       "status": "tbd",
-      "rate": "References: Fed. Reg. notice (released Mar. 12, 2026)",
+      "rate": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "rateNum": null,
       "scope": "",
       "countermeasures": "—"
