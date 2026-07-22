@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-07-21T10:12:37.328597+00:00",
-  "article_date": "2026-06-03",
-  "source_url": "https://www.tradecomplianceresourcehub.com/2026/06/03/trump-2-0-tariff-tracker/",
+  "scraped_at": "2026-07-22T10:12:23.486126+00:00",
+  "article_date": "2026-07-21",
+  "source_url": "https://www.tradecomplianceresourcehub.com/2026/07/21/trump-2-0-tariff-tracker/",
   "countries": [
     {
       "country": "All",
@@ -109,10 +109,10 @@
     },
     {
       "country": "Brazil (Sec. 301)",
-      "status": "threatened",
+      "status": "implemented",
       "rate": "25%",
       "rateNum": 25.0,
-      "scope": "Exemptions: (a) Items subject to Section 232 tariffs (b) Items listed in the Annex to the Federal Register notice",
+      "scope": "Exemptions: (a) Items subject to the savings clause (loaded onto a vessel at the port of loading and in transit before July 22 and entered before July 29) (b) Items subject to Section 232 tariffs (c) Items listed in Annex II to the USTR’s Federal Register notice",
       "countermeasures": "—"
     },
     {
@@ -135,6 +135,14 @@
       "country": "Section 301 (excess capacity): Threatened (Mar. 11, 2026)",
       "status": "tbd",
       "rate": "The USTR is investigating Cambodia’s acts, policies, and practice relating to structural excess capacity and production in certain sectors, including the garment, footwear, and travel goods sectors. References: Fed. Reg. notice (released Mar. 11, 2026)",
+      "rateNum": null,
+      "scope": "",
+      "countermeasures": "—"
+    },
+    {
+      "country": "Section 301 (forced labor): Threatened (Mar. 12, 2026; proposed rate announced June 2, 2026)",
+      "status": "tbd",
+      "rate": "Exemptions: (a) Items subject to Section 232 tariffs. (b) Items qualifying for duty-free treatment under the USMCA. (c) Items listed in Annex A to the Federal Register notice. References: Fed. Reg. notice (released Mar. 12, 2026)",
       "rateNum": null,
       "scope": "",
       "countermeasures": "—"
