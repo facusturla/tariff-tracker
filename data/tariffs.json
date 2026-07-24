@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-23T10:09:34.296201+00:00",
+  "scraped_at": "2026-07-24T10:05:16.375720+00:00",
   "article_date": "2026-07-21",
   "source_url": "https://www.tradecomplianceresourcehub.com/2026/07/21/trump-2-0-tariff-tracker/",
   "countries": [
@@ -999,6 +999,20 @@
     }
   ],
   "context": [
+    {
+      "heading": "Section 301 forced labor tariff exemptions",
+      "items": [
+        "The following foreign-origin items are exempt from the Section 301 forced labor tariffs:",
+        "Goods subject to the saving clause . The savings clause covers goods loaded onto a vessel at the port of loading and in transit on the final mode of transit before entry into the United States before 12:01 a.m. (ET) on July 24, 2026 and entered for consumption, or withdrawn from warehouse for consumption, before 12:01 a.m. (ET) on July 28.",
+        "Goods subject to the Section 232 tariffs .",
+        "Certain articles of civil aircraft as described in U.S. Note 2(aa)(iv) to Subchapter III of Chapter 99 of the HTSUS.",
+        "Goods qualifying for duty-free treatment under the USMCA .",
+        "Article of textiles or apparel (a) of Jordan or (b) that qualify for duty-free treatment under CAFTA-DR .",
+        "The additional articles listed in Annex II to the USTR’s Federal Register notice , including certain agricultural products, copper, pharmaceuticals, semiconductors, lumber articles, certain critical minerals, and energy and energy products. Over 90% of the goods on Annex II mirror those previously exempt from the reciprocal tariffs.",
+        "Articles that are donations by persons subject to the jurisdiction of the United States, such as food, clothing and medicine, intended to be used to relieve human suffering.",
+        "Information materials ."
+      ]
+    },
     {
       "heading": "Section 122 tariff exemptions",
       "items": [
